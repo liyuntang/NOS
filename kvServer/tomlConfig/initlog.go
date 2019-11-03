@@ -9,7 +9,7 @@ import (
 
 func InitLogger() *log.Logger {
 	// get log file
-	logFile := conf.System.LogFile
+	logFile := conf.KvServer.LogFile
 
 	// open logFile if it exsit or create it if it not exsit
 	file, err := os.OpenFile(logFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)

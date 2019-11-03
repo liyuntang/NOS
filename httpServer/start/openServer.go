@@ -1,12 +1,12 @@
-package httpServer
+package start
 
 import (
-	"NOS/objects"
+	"NOS/httpServer/operation"
 	"log"
 	"net/http"
 )
 
 func OpenServer(endPoint string, logger *log.Logger)  {
-	http.HandleFunc("/", objects.Handler)
+	http.HandleFunc("/", operation.Handler)
 	http.ListenAndServe(endPoint, nil)
 }

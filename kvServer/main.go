@@ -1,10 +1,10 @@
 package main
 
 import (
-	"NOS/common"
-	"NOS/httpServer"
-	"NOS/objects"
-	"NOS/tomlConfig"
+	"NOS/kvServer/operation"
+	"NOS/kvServer/start"
+	"NOS/kvServer/tomlConfig"
+	"NOS/kvServer/common"
 	"flag"
 	"fmt"
 	"os"
@@ -32,15 +32,17 @@ func main()  {
 	generalog := tomlConfig.InitLogger()
 
 	// 为http初始化一些变量
-	objects.DataDir = configration.System.DataDir
-	objects.WriteLog = generalog
+	operation.WriteLog = generalog
+	operation.DataDir = configration.KvServer.DataDir
 
 	// 判断dataDir是否存在，如果不存在则创建该目录，如果存在则判断是否为空，如果不为空应当提示用户
-	common.JudgeDir(configration.System.DataDir, generalog)
+	common.JudgeDir(configration.KvServer.DataDir, generalog)
 
+	// 传递一个参数
+	operation.KVSERVER = fmt.Sprintf("%s:%d", configration.KvServer.Address, configration.KvServer.Port)
 	// 根据配置启动一个http server
-	endPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)
-	httpServer.OpenServer(endPoint, generalog)
+	fmt.Println("start endPoint is", operation.KVSERVER)
+	start.OpenServer(operation.KVSERVER, generalog)
 }
 
 

@@ -1,0 +1,41 @@
+[NOS] 2019/11/03 21:20:37 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 21:24:05 get.go:14: file /Users/liyuntang/go/default/src/NOS/kvServer/data/aaa.file is not exist
+[NOS] 2019/11/03 22:06:19 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 22:06:41 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/aaa.file is not exist
+[NOS] 2019/11/03 22:17:43 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:51 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:53 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:55 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:56 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:57 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:58 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:58 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:17:59 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:00 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:01 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:01 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:02 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:33 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:34 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:35 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:36 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:36 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:37 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:38 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:18:38 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:19:45 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:22:44 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 22:30:37 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 22:30:37 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 22:49:31 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 23:07:59 pdSearch.go:18: file /Users/liyuntang/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/03 23:10:36 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 23:10:36 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 23:11:07 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 23:11:07 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 23:12:10 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 23:12:10 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 23:12:45 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 23:12:45 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/03 23:14:17 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/03 23:14:17 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok

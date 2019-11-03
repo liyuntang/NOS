@@ -9,11 +9,11 @@ import (
 )
 
 var (
-	conf *NOS
+	conf *HTTPSERVER
 	once sync.Once
 )
 
-func TomlConfig(configFile string) *NOS {
+func TomlConfig(configFile string) *HTTPSERVER {
 	// 获取配置文件的绝对路径
 	absPath, err := filepath.Abs(configFile)
 	if err != nil {
