@@ -1,0 +1,5 @@
+[system]
+address = "0.0.0.0"
+port = 9000
+dataDir = "/Users/liyuntang/go/default/src/NOS/data"
+logFile = "/Users/liyuntang/go/default/src/NOS/logs/nos.log"
