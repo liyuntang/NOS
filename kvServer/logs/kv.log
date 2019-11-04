@@ -58,3 +58,27 @@
 [NOS] 2019/11/04 16:53:59 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
 [NOS] 2019/11/04 16:53:59 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
 [NOS] 2019/11/04 16:54:06 put.go:37: sorry object /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is exist
+[NOS] 2019/11/04 17:47:38 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 17:47:38 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 17:48:09 delete.go:26: delete file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is ok
+[NOS] 2019/11/04 17:48:15 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:57:40 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:57:52 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:57:58 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:58:03 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:58:04 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:58:10 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:58:16 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:58:44 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 17:59:34 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:55 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:57 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:00:59 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/ccc.file is not exist
+[NOS] 2019/11/04 18:01:03 delete.go:26: delete file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is ok
+[NOS] 2019/11/04 18:01:04 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is not exist
+[NOS] 2019/11/04 18:01:05 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is not exist
+[NOS] 2019/11/04 18:01:05 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is not exist
+[NOS] 2019/11/04 18:01:18 put.go:30: write file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is ok

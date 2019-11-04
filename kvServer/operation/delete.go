@@ -16,7 +16,7 @@ func delete(w http.ResponseWriter, objectPath string)  {
 	}
 	// 说明文件存在，删除该文件
 	if err1 := os.Remove(objectPath); err1 != nil {
-		// 说明删除文件失败
+		// 说明文件存在但是删除文件失败
 		w.WriteHeader(http.StatusBadRequest)
 		WriteLog.Println("delete file", objectPath, "is bad")
 		return

@@ -76,3 +76,15 @@
 [NOS] 2019/11/04 15:41:21 handler.go:137: sorry, your object method liyuntang is not allow,we only suport get/put/delete object
 [NOS] 2019/11/04 15:51:04 handler.go:151: sorry, your object method liyuntang is not allow,we only suport get/put/delete object
 [NOS] 2019/11/04 16:54:06 handler.go:184: sorry object bbb.file has exist
+[NOS] 2019/11/04 17:48:09 handler.go:106: delete object bbb.file is ok
+[NOS] 2019/11/04 18:00:55 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:00:57 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:00:58 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:00:59 handler.go:125: object ccc.file is not exist
+[NOS] 2019/11/04 18:01:03 handler.go:112: delete object aaa.file is ok
+[NOS] 2019/11/04 18:01:04 handler.go:125: object aaa.file is not exist
+[NOS] 2019/11/04 18:01:05 handler.go:125: object aaa.file is not exist
+[NOS] 2019/11/04 18:01:05 handler.go:125: object aaa.file is not exist
+[NOS] 2019/11/04 18:01:18 handler.go:182: put object is ok

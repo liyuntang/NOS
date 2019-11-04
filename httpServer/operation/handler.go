@@ -25,7 +25,7 @@ var (
 func Handler(w http.ResponseWriter, r *http.Request)  {
 	// 获取请求方法
 	method := r.Method
-
+	fmt.Println("method is", method)
 	// 对请求方法做判断，如果发起的是get、delete操作则需要pd对所有的kvserver进行广播，如果发起的是put请求，则只需要pd返回一个可用的kvserver即可
 	if strings.ToLower(method) == "get" || strings.ToLower(method) == "delete"{
 		// 说明发起的是get、delete操作,此时需要pd对所有的kvserver进行广播
@@ -42,6 +42,7 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 			WriteLog.Println("pd", pdserver, "is not accept")
 			return
 		}
+		fmt.Println("pd code is", reps.StatusCode)
 		// 说明向pd发起search操作成功，此时pd返回的结果有两种：1、正常的kvserver地址  2、kvserver不可达
 		if reps.StatusCode == 200 {
 			// 说明获取object所在的kvserver很成功，拿到该kvserver地址后发起get、put、delte操作即可
@@ -57,6 +58,7 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 			kvUrl := fmt.Sprintf("http://%s/%s", kvMessage, objectName)
 			if strings.ToLower(method) == "get"{
 				// get object
+				fmt.Println("kvUrl is", kvUrl)
 				reps, err := http.Get(kvUrl)
 				if err != nil {
 					// 说明从kvserver获取object数据失败
@@ -65,8 +67,9 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 					return
 				}
 				// 说明从kvserver获取object数据成功，判断statucode
+				// statucode有两种情况：1、object存在 2object不存在
 				if reps.StatusCode == 200 {
-					// 说明返回数据成功
+					// object存在
 					objectData, err := ioutil.ReadAll(reps.Body)
 					reps.Body.Close()
 					if err != nil {
@@ -78,18 +81,22 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 					//fmt.Println("开始给httpServer返回kvServer地址", kvMessage, string(kvMessage))
 					w.Write(objectData)
 					return
+				} else if reps.StatusCode == 404 {
+					// object不存在
+					WriteLog.Println("object", objectName, "is not exist")
+					w.WriteHeader(404)
 				}
 
-			} else if strings.ToLower(method) == "put" {
+			} else if strings.ToLower(method) == "delete" {
 				// put object
-				req, err := http.NewRequest("PUT", kvUrl, nil)
+				req, err := http.NewRequest("delete", kvUrl, nil)
 				if err != nil {
-					// 说明项kvserver发起put请求操作失败
-					WriteLog.Println("new request of put is bad")
+					// 说明项kvserver发起delete请求操作失败
+					WriteLog.Println("new request of delete is bad")
 					w.WriteHeader(http.StatusBadRequest)
 					return
 				}
-				// 说明项kvserver发起put请求操作成功
+				// 说明项kvserver发起delete请求操作成功
 				resp, err1 := http.DefaultClient.Do(req)
 				defer resp.Body.Close()
 				if err1 != nil {
@@ -97,27 +104,25 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 					w.WriteHeader(http.StatusBadRequest)
 					return
 				}
-				buf, err2 := ioutil.ReadAll(resp.Body)
-				if err2 != nil {
-					WriteLog.Println("read resp.body is bad, err is", err2)
+				// 根据code来判读delete操作是否成功
+				// code有三个状态：1、删除成功  2、文件存在但删除失败  3、文件不存在
+				code := resp.StatusCode
+				if code == 200 {
+					// 删除成功
+					WriteLog.Println("delete object", objectName, "is ok")
+					w.WriteHeader(http.StatusOK)
+
+				} else if code == 400 {
+					// 文件存在但删除失败
+					WriteLog.Println("object", objectName, "is exist but delete it is bad")
 					w.WriteHeader(http.StatusBadRequest)
-					return
+
 				}
-				fmt.Println("buf is", string(buf))
-				w.WriteHeader(http.StatusOK)
-				return
 
-			} else if strings.ToLower(method) == "delete" {
-				// delete object
-
-			} else {
-				w.WriteHeader(http.StatusMethodNotAllowed)
-				WriteLog.Println("method is not allowd")
-				return
 			}
-
-
 		} else if reps.StatusCode == 404 {
+			// object不存在
+			WriteLog.Println("object", objectName, "is not exist")
 			w.WriteHeader(404)
 			return
 		}else {
