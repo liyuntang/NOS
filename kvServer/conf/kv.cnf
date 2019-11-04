@@ -2,5 +2,5 @@
 address = "127.0.0.1"
 port = 9200
 kvservers = ["127.0.0.1:9200"]
-dataDir = "/Users/liyuntang/go/default/src/NOS/kvServer/data"
-logFile = "/Users/liyuntang/go/default/src/NOS/kvServer/logs/kv.log"
+dataDir = "/Users/nice/go/default/src/NOS/kvServer/data"
+logFile = "/Users/nice/go/default/src/NOS/kvServer/logs/kv.log"

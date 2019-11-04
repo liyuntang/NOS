@@ -72,3 +72,7 @@
 [NOS] 2019/11/03 15:00:14 delete.go:17: file /Users/liyuntang/go/default/src/NOS/data/aaa.file is not exist
 [NOS] 2019/11/03 15:00:14 delete.go:17: file /Users/liyuntang/go/default/src/NOS/data/aaa.file is not exist
 [NOS] 2019/11/03 15:00:15 delete.go:17: file /Users/liyuntang/go/default/src/NOS/data/aaa.file is not exist
+[NOS] 2019/11/04 15:40:50 handler.go:137: sorry, object method is not allow,we only suport get/put/delete object
+[NOS] 2019/11/04 15:41:21 handler.go:137: sorry, your object method liyuntang is not allow,we only suport get/put/delete object
+[NOS] 2019/11/04 15:51:04 handler.go:151: sorry, your object method liyuntang is not allow,we only suport get/put/delete object
+[NOS] 2019/11/04 16:54:06 handler.go:184: sorry object bbb.file has exist

@@ -32,4 +32,6 @@ func put(w http.ResponseWriter, r *http.Request, objectPath string)  {
 	}
 	// 说明文件存在，提示w文件已存在
 	w.WriteHeader(http.StatusInternalServerError)
+	WriteLog.Println("sorry object", objectPath, "is exist")
+	return
 }

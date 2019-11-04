@@ -39,3 +39,22 @@
 [NOS] 2019/11/03 23:12:45 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
 [NOS] 2019/11/03 23:14:17 judgeDir.go:27: [warning] dir /Users/liyuntang/go/default/src/NOS/kvServer/data is not null
 [NOS] 2019/11/03 23:14:17 judgeDir.go:39: create dir /Users/liyuntang/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 15:13:24 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 15:13:24 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 15:16:07 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 15:16:07 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 15:17:39 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 15:17:39 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 15:17:51 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:27:31 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:27:54 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:27:55 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:27:56 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:28:03 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 15:54:06 pdSearch.go:18: file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is not exist
+[NOS] 2019/11/04 16:46:32 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 16:46:32 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 16:46:42 put.go:32: write file /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is ok
+[NOS] 2019/11/04 16:53:59 judgeDir.go:27: [warning] dir /Users/nice/go/default/src/NOS/kvServer/data is not null
+[NOS] 2019/11/04 16:53:59 judgeDir.go:39: create dir /Users/nice/go/default/src/NOS/kvServer/data is ok
+[NOS] 2019/11/04 16:54:06 put.go:37: sorry object /Users/nice/go/default/src/NOS/kvServer/data/bbb.file is exist

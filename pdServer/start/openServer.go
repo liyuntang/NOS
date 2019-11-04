@@ -8,5 +8,6 @@ import (
 
 func StartPD(endPoint string, logger *log.Logger)  {
 	http.HandleFunc("/search/", search.Seacher)
+	http.HandleFunc("/put/", search.Put)
 	http.ListenAndServe(endPoint, nil)
 }
