@@ -1,49 +1,68 @@
 package main
 
 import (
-	"NOS/kvServer/operation"
-	"NOS/kvServer/start"
-	"NOS/kvServer/tomlConfig"
 	"NOS/kvServer/common"
+	"NOS/kvServer/etcd"
+	"NOS/kvServer/objects"
+	"NOS/kvServer/tomlConfig"
 	"flag"
 	"fmt"
+	"net/http"
 	"os"
+	"time"
 )
 
+// 定义一些变量
 var (
 	config string
 )
 
+// flag
+
 func init()  {
-	flag.StringVar(&config, "c", "", "configration file")
+	flag.StringVar(&config, "c", "", "nos service config file")
 }
 
 
 func main()  {
 	flag.Parse()
-	if len(os.Args) <= 1 {
+	argsLen := len(os.Args)
+	if argsLen <= 1 {
 		flag.PrintDefaults()
-		os.Exit(0)
 	}
-	// 解析配置
+
+	// 解析配置文件信息
 	configration := tomlConfig.TomlConfig(config)
 
 	// 初始化日志
-	generalog := tomlConfig.InitLogger()
+	kvlog := common.CreateLog(configration.System.LogFile)
 
-	// 为http初始化一些变量
-	operation.WriteLog = generalog
-	operation.DataDir = configration.KvServer.DataDir
+	// 初始化数据存储目录
+	common.JudgeDir(configration.System.DataDir, kvlog)
 
-	// 判断dataDir是否存在，如果不存在则创建该目录，如果存在则判断是否为空，如果不为空应当提示用户
-	common.JudgeDir(configration.KvServer.DataDir, generalog)
+	// 赋值几个变量
+	objects.WriteLog = kvlog
+	objects.DataDir = configration.System.DataDir
 
-	// 传递一个参数
-	operation.KVSERVER = fmt.Sprintf("%s:%d", configration.KvServer.Address, configration.KvServer.Port)
-	// 根据配置启动一个http server
-	fmt.Println("start endPoint is", operation.KVSERVER)
-	start.OpenServer(operation.KVSERVER, generalog)
+	// 持续向etcd服务注册自己
+	endPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)
+	go func() {
+		for {
+			// 这个地方要注意注册的频率，一定要小于lease
+			etcd.Put(configration.Etcd, endPoint, kvlog)
+			time.Sleep(1*time.Second)
+		}
+	}()
+
+
+	etcd.Put(configration.Etcd, endPoint, kvlog)
+
+	// 启动一个http作为数据服务层，该数据服务层监听两个路径"/search/"、"/"
+	// "/search/"表示发起的是广播请求
+	// "/"表示发起的是正常的get、delete、put操作
+	httpEndPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)
+	http.HandleFunc("/search/", objects.Search)
+	http.HandleFunc("/", objects.Handler)
+	http.ListenAndServe(httpEndPoint, nil)
+
 }
-
-
-

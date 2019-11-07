@@ -1,5 +1,0 @@
-[httpServer]
-address = "0.0.0.0"
-port = 9000
-pdServer = ["127.0.0.1:9100"]
-logFile = "/Users/nice/go/default/src/NOS/httpServer/logs/nos.log"
