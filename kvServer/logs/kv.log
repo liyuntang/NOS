@@ -9947,3 +9947,9 @@
 [nos ]2019/11/07 19:16:20 search.go:20: file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is not exist
 [nos ]2019/11/07 19:16:23 search.go:20: file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is not exist
 [nos ]2019/11/07 19:16:41 put.go:30: write file /Users/nice/go/default/src/NOS/kvServer/data/aaa.file is ok
+[nos ]2019/11/09 00:33:01 put.go:30: write file /Users/liyuntang/go/default/src/NOS/kvServer/data/a689d786e81340e45511dec6c7ab2d978434e5db123362450fe10cfac70d19d0 is ok
+[nos ]2019/11/09 00:33:50 put.go:35: sorry object /Users/liyuntang/go/default/src/NOS/kvServer/data/a689d786e81340e45511dec6c7ab2d978434e5db123362450fe10cfac70d19d0 is exist
+[nos ]2019/11/09 00:33:56 put.go:35: sorry object /Users/liyuntang/go/default/src/NOS/kvServer/data/a689d786e81340e45511dec6c7ab2d978434e5db123362450fe10cfac70d19d0 is exist
+[nos ]2019/11/09 00:34:04 put.go:35: sorry object /Users/liyuntang/go/default/src/NOS/kvServer/data/a689d786e81340e45511dec6c7ab2d978434e5db123362450fe10cfac70d19d0 is exist
+[nos ]2019/11/09 00:35:18 search.go:20: file /Users/liyuntang/go/default/src/NOS/kvServer/data/0933e54e76b24731a2d84b6b463ec04c is not exist
+[nos ]2019/11/09 00:35:26 search.go:20: file /Users/liyuntang/go/default/src/NOS/kvServer/data/0933e54e76b24731a2d84b6b463ec04c is not exist

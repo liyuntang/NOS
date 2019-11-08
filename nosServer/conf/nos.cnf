@@ -1,7 +1,7 @@
 [system]
 address = "127.0.0.1"
 port = 9000
-logFile = "/Users/nice/go/default/src/NOS/nosServer/logs/nos.log"
+logFile = "/Users/liyuntang/go/default/src/NOS/nosServer/logs/nos.log"
 
 
 [etcd]

@@ -473,3 +473,35 @@
 [nos ]2019/11/08 20:32:56 nosStruct.go:42: init db connection 10.10.30.41:4000 is bad
 [nos ]2019/11/08 20:33:35 nosStruct.go:43: init db connection 10.10.30.41:4000 is bad
 [nos ]2019/11/08 20:43:25 handler.go:62: object bbb.file is not exist
+[nos ]2019/11/08 23:29:52 handler.go:68: sorry, method put is not allow, we only suport get/put/delete
+[nos ]2019/11/09 00:33:01 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:33:01 put.go:27: second operation of put is ok
+[nos ]2019/11/09 00:33:01 handler.go:133: put object bbb.file is ok
+[nos ]2019/11/09 00:33:50 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:33:50 put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 00:33:50 handler.go:133: put object ccc.file is ok
+[nos ]2019/11/09 00:33:56 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:33:56 put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 00:33:56 handler.go:133: put object ddd.file is ok
+[nos ]2019/11/09 00:34:04 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:34:04 put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 00:34:04 handler.go:133: put object eee.file is ok
+[nos ]2019/11/09 00:34:34 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:34:34 get.go:36: second operation of get is ok
+[nos ]2019/11/09 00:34:34 handler.go:102: object eee.file is not exist
+[nos ]2019/11/09 00:35:07 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:35:07 get.go:36: second operation of get is ok
+[nos ]2019/11/09 00:35:07 handler.go:102: object eee.file is not exist
+[nos ]2019/11/09 00:35:18 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:35:19 handler.go:94: broadcast object aaa.file is time out
+[nos ]2019/11/09 00:35:26 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:35:27 handler.go:94: broadcast object aaa.file is time out
+[nos ]2019/11/09 00:35:34 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:35:34 get.go:36: second operation of get is ok
+[nos ]2019/11/09 00:35:34 handler.go:102: object bbb.file is not exist
+[nos ]2019/11/09 00:35:51 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 00:35:51 get.go:36: second operation of get is ok
+[nos ]2019/11/09 00:35:51 handler.go:102: object bbb.file is not exist
+[nos ]2019/11/09 00:36:16 handler.go:147: delete object bbb.file is ok
+[nos ]2019/11/09 00:37:40 handler.go:147: delete object ccc.file is ok
+[nos ]2019/11/09 00:37:49 handler.go:147: delete object ddd.file is ok
