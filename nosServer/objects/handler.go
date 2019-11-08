@@ -17,7 +17,7 @@ var (
 	EtcdServer tomlConfig.ETCD
 )
 
-// 该函数为接口服务层的处理函数，处理流程如下：
+// 该函数为接入层的处理函数，处理流程如下：
 // 1、判断method，如果method为get、delete则需要对所有kvserver进行广播查找object所在的机器，如果为put则随机抽取一台kvserver执行put操作即可
 // 2、从etcd中获取kvserver信息
 // 3、获取objectName，并封装成search请求
@@ -51,7 +51,7 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 			ch := make(chan string, 1)
 			// 发起新请求，如果超过1s中还没有从channel中获取到数据则超时，返回客户端信息
 			for _, kvIp := range kvservers {
-				go broadcast(objectName, kvIp, ch, WriteLog)
+				go broadcast(objectName, kvIp, ch)
 			}
 			// 从channel中读取数据，如果超过1s还没有数据则超时
 			select {

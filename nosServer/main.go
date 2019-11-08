@@ -39,7 +39,7 @@ func main()  {
 	objects.WriteLog = nlog
 	objects.EtcdServer = configration.Etcd
 
-	// 启动一个http作为接口服务层，对外提供服务
+	// 启动一个http作为接入层服务，对外提供服务
 	httpEndPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)
 	http.HandleFunc("/", objects.Handler)
 	http.ListenAndServe(httpEndPoint, nil)
