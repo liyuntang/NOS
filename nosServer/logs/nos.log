@@ -468,3 +468,8 @@
 [nos ]2019/11/07 19:16:55 get.go:36: second operation of get is ok
 [nos ]2019/11/07 19:16:55 get.go:25: connect to etcd [10.10.10.64:2379] is ok
 [nos ]2019/11/07 19:16:55 get.go:36: second operation of get is ok
+[nos ]2019/11/08 20:28:02 nosStruct.go:42: init db connection 10.10.30.41:4000 is bad
+[nos ]2019/11/08 20:31:18 nosStruct.go:42: init db connection 10.10.30.41:4000 is bad
+[nos ]2019/11/08 20:32:56 nosStruct.go:42: init db connection 10.10.30.41:4000 is bad
+[nos ]2019/11/08 20:33:35 nosStruct.go:43: init db connection 10.10.30.41:4000 is bad
+[nos ]2019/11/08 20:43:25 handler.go:62: object bbb.file is not exist

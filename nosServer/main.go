@@ -2,6 +2,7 @@ package main
 
 import (
 	"NOS/nosServer/common"
+	"NOS/nosServer/metadata"
 	"NOS/nosServer/objects"
 	"NOS/nosServer/tomlConfig"
 	"flag"
@@ -39,7 +40,10 @@ func main()  {
 	objects.WriteLog = nlog
 	objects.EtcdServer = configration.Etcd
 
-	// 启动一个http作为接入层服务，对外提供服务
+	metadata.WriteLog = nlog
+	metadata.MetaDataHostInfo = configration.Metadata
+
+	// 启动一个http作为接入层，对外提供服务
 	httpEndPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)
 	http.HandleFunc("/", objects.Handler)
 	http.ListenAndServe(httpEndPoint, nil)

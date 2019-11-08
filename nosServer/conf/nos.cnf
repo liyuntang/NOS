@@ -8,3 +8,12 @@ logFile = "/Users/nice/go/default/src/NOS/nosServer/logs/nos.log"
 etcdTimeOut = 1
 etcdDir = "/nos/kvservers"
 etcdServers = ["10.10.10.64:2379"]
+
+[metadata]
+user = "admin_m"
+passwd = "XphoeGz6NED4yQMQ0yJc"
+address = "10.10.30.41"
+port = 4000
+charset = "utf8mb4"
+database = "db_platform"
+table = "nos_metadata"
