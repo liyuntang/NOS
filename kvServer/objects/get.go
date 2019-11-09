@@ -1,7 +1,6 @@
 package objects
 
 import (
-	"fmt"
 	"io"
 	"net/http"
 	"os"
@@ -26,7 +25,6 @@ func get(w http.ResponseWriter, objectPath string)  {
 		return
 	}
 	// 说明打开object成功，返回数据
-	fmt.Println("读取文件成功")
 	io.Copy(w, file)
 	w.WriteHeader(200)
 	return

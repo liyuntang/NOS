@@ -505,3 +505,437 @@
 [nos ]2019/11/09 00:36:16 handler.go:147: delete object bbb.file is ok
 [nos ]2019/11/09 00:37:40 handler.go:147: delete object ccc.file is ok
 [nos ]2019/11/09 00:37:49 handler.go:147: delete object ddd.file is ok
+[nos ]2019/11/09 09:39:48 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:53 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:56 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:57 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:58 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:59 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:39:59 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 09:40:40 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:01 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:01 get.go:23: get kvserver from etcd is bad
+[nos ]2019/11/09 14:05:21 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:21 get.go:23: get kvserver from etcd is bad
+[nos ]2019/11/09 14:05:23 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:23 get.go:23: get kvserver from etcd is bad
+[nos ]2019/11/09 14:05:24 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:24 get.go:23: get kvserver from etcd is bad
+[nos ]2019/11/09 14:05:25 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:25 get.go:23: get kvserver from etcd is bad
+[nos ]2019/11/09 14:05:37 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:37 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:05:37 get.go:48: object eee.file is not exist
+[nos ]2019/11/09 14:05:58 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:05:58 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:05:58 get.go:48: object eee.file is not exist
+[nos ]2019/11/09 14:06:55 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:06:55 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:06:55 get.go:50: object eee.file is not exist
+[nos ]2019/11/09 14:13:08 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:13:08 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:13:08 get.go:50: object eee.file is not exist
+[nos ]2019/11/09 14:16:55 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:16:56 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:16:56 get.go:51: object eee.file is not exist
+[nos ]2019/11/09 14:18:07 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:18:07 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:18:07 get.go:52: object eee.file is not exist
+[nos ]2019/11/09 14:19:09 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:19:09 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:19:09 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:19:52 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:19:52 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:19:52 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:49 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:49 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:49 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:50 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:50 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:50 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:51 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:51 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:51 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:52 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:52 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:52 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:53 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:53 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:53 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:54 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:54 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:54 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:55 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:55 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:55 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:55 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:55 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:55 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:56 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:56 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:56 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:20:59 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:20:59 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:20:59 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:00 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:00 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:00 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:00 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:00 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:00 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:01 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:01 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:01 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:02 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:02 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:02 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:03 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:03 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:03 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:04 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:04 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:04 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:05 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:05 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:05 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:05 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:05 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:05 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:06 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:06 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:06 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:07 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:07 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:07 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:08 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:08 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:08 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:09 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:09 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:09 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:10 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:10 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:10 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:10 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:10 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:10 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:12 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:12 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:12 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:12 get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:12 get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:12 get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:21:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:21:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:21:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:53: object eee.file is not exist
+[nos ]2019/11/09 14:23:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:23:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:23:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 14:23:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:23:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:23:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object bbb.file is not exist
+[nos ]2019/11/09 14:23:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:23:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:23:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ccc.file is not exist
+[nos ]2019/11/09 14:24:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:24:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:24:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ddd.file is not exist
+[nos ]2019/11/09 14:24:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:24:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:24:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object eee.file is not exist
+[nos ]2019/11/09 14:24:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ee.file is not exist
+[nos ]2019/11/09 14:24:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ee.file is not exist
+[nos ]2019/11/09 14:24:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ee.file is not exist
+[nos ]2019/11/09 14:31:37 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:25: sorry, object eee.file is exist
+[nos ]2019/11/09 14:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:25: second operation of put is ok
+[nos ]2019/11/09 14:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object fff.file is ok
+[nos ]2019/11/09 14:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:30: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 14:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object ggg.file is ok
+[nos ]2019/11/09 14:32:16 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:25: sorry, object ggg.file is exist
+[nos ]2019/11/09 14:32:29 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:32:29 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:32:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ggg.file is not exist
+[nos ]2019/11/09 14:32:33 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:32:33 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:32:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ggg.file is not exist
+[nos ]2019/11/09 14:32:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:32:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:32:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ggg.file is not exist
+[nos ]2019/11/09 14:32:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:32:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 14:32:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object fff.file is not exist
+[nos ]2019/11/09 14:34:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:34:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:30: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 14:34:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object hhh.file is ok
+[nos ]2019/11/09 14:35:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:25: sorry, object hhh.file is exist
+[nos ]2019/11/09 14:35:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:35:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:34: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 14:35:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object iii.file is ok
+[nos ]2019/11/09 14:36:17 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:36:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:34: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 14:36:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object jjj.file is ok
+[nos ]2019/11/09 14:36:35 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 14:36:35 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:34: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 14:36:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:50: put object kkk.file is ok
+[nos ]2019/11/09 18:47:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:21: sorry, object hhh.file is exist
+[nos ]2019/11/09 18:47:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:47:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:49:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:49:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:49:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:49:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:50:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:50:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:50:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:50:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:51:26 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:51:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:51:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:51:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:56: put object zzzz.file is bad
+[nos ]2019/11/09 18:53:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:53:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:59: put object zzzz.file is bad
+[nos ]2019/11/09 18:58:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 18:58:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:47: put object zzzz.file is bad
+[nos ]2019/11/09 19:29:38 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:29:38 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:29:38 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:50: object aaa.file is not exist
+[nos ]2019/11/09 19:30:11 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:30:12 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:30:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 19:49:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:49:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:24: second operation of put is ok
+[nos ]2019/11/09 19:49:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:41: put object zzzz.file is ok
+[nos ]2019/11/09 19:49:59 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:49:59 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:49:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:07 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:11 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:11 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:12 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:12 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object zzzz.file is not exist
+[nos ]2019/11/09 19:50:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:50:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:50:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 19:53:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:53:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 19:53:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 19:53:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:21: sorry, object kkk.file is exist
+[nos ]2019/11/09 19:54:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:54:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:30: second operation of put is ok
+[nos ]2019/11/09 19:54:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:41: put object lll.file is ok
+[nos ]2019/11/09 19:54:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:21: sorry, object lll.file is exist
+[nos ]2019/11/09 19:55:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 19:55:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:34: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 19:55:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object mmm.file is bad
+[nos ]2019/11/09 20:03:42 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:03:42 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:34: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:03:42 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:55: put object nnn.file is bad
+[nos ]2019/11/09 20:20:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:21:38 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:21:38 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:30: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:21:38 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:55: put object sss.file is bad
+[nos ]2019/11/09 20:23:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:23:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:23:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:55: put object sss.file is bad
+[nos ]2019/11/09 20:25:24 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:25:24 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 20:25:24 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:45: put object sss.file is ok
+[nos ]2019/11/09 20:29:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:29:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 20:29:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:45: put object qqq.file is ok
+[nos ]2019/11/09 20:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 20:31:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:45: put object www.file is ok
+[nos ]2019/11/09 20:31:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 20:31:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object www.file is not exist
+[nos ]2019/11/09 20:31:54 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:54 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 20:31:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object www.file is not exist
+[nos ]2019/11/09 20:31:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 20:31:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object www.file is not exist
+[nos ]2019/11/09 20:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 20:31:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object www.file is not exist
+[nos ]2019/11/09 20:31:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:31:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 20:31:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object www.file is not exist
+[nos ]2019/11/09 20:32:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:32:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:32:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:55: put object rrr.file is bad
+[nos ]2019/11/09 20:47:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:47:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:47:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:68: put object rrr.file is bad
+[nos ]2019/11/09 20:51:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:51:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:51:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:68: put object rrr.file is bad
+[nos ]2019/11/09 20:52:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:52:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:52:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:68: put object rrr.file is bad
+[nos ]2019/11/09 20:53:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:53:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:53:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object rrr.file is bad
+[nos ]2019/11/09 20:54:40 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:54:40 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:54:40 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object rrr.file is bad
+[nos ]2019/11/09 20:56:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:56:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:56:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object rrr.file is bad
+[nos ]2019/11/09 20:58:28 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 20:58:28 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is bad, beacuse kvserver return data is bad
+[nos ]2019/11/09 20:58:28 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object rrr.file is bad
+[nos ]2019/11/09 21:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object rrr.file is ok
+[nos ]2019/11/09 21:02:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object ttt.file is ok
+[nos ]2019/11/09 21:02:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object yyy.file is ok
+[nos ]2019/11/09 21:02:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object uuu.file is ok
+[nos ]2019/11/09 21:03:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object ooo.file is ok
+[nos ]2019/11/09 21:03:21 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:03:21 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 21:03:21 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ppp.file is ok
+[nos ]2019/11/09 21:07:23 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object beijing.file is ok
+[nos ]2019/11/09 21:07:36 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object beijing.file is exist
+[nos ]2019/11/09 21:07:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object shanghai.file is ok
+[nos ]2019/11/09 21:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object shanghai.file is not exist
+[nos ]2019/11/09 21:08:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object shanghai.file is not exist
+[nos ]2019/11/09 21:08:16 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:16 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:16 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object shanghai.file is not exist
+[nos ]2019/11/09 21:08:17 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object shanghai.file is not exist
+[nos ]2019/11/09 21:08:20 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:20 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:20 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object shanghai.file is not exist
+[nos ]2019/11/09 21:08:26 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:08:26 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:08:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object beijing.file is not exist
+[nos ]2019/11/09 21:10:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:10:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 21:10:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object aaa.file is ok
+[nos ]2019/11/09 21:10:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object aaa.file is exist
+[nos ]2019/11/09 21:10:21 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:10:21 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:10:21 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 21:10:41 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object bbb.file is ok
+[nos ]2019/11/09 21:10:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object ccc.file is ok
+[nos ]2019/11/09 21:10:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:10:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:10:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ccc.file is not exist
+[nos ]2019/11/09 21:10:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:10:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:10:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ccc.file is not exist
+[nos ]2019/11/09 21:11:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:11:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:11:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object ccc.file is not exist
+[nos ]2019/11/09 21:11:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:11:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:11:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object bbb.file is not exist
+[nos ]2019/11/09 21:11:22 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 21:11:22 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 21:11:22 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object aaa.file is not exist
+[nos ]2019/11/09 21:11:38 /Users/liyuntang/go/default/src/NOS/nosServer/objects/delete.go:13: delete object ccc.file is ok
+[nos ]2019/11/09 21:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/delete.go:23: sorry, object ddd.file is not exist
+[nos ]2019/11/09 22:55:32 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 22:56:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 22:56:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object picture is ok
+[nos ]2019/11/09 22:59:25 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 22:59:25 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 22:59:25 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:00:18 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:00:18 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:00:18 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:02:42 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:02:42 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:02:42 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:04:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:04:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:04:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:05:36 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:05:36 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:05:36 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:06:30 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:06:31 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:06:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:48: object picture is not exist
+[nos ]2019/11/09 23:07:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:07:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:07:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:50: object picture is not exist
+[nos ]2019/11/09 23:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:08:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/get.go:50: object picture is not exist
+[nos ]2019/11/09 23:09:26 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:09:26 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/09 23:12:26 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:12:27 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:13:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:13:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:14:25 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:14:25 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:14:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:14:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:15:41 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:15:41 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:16:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:16:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:16:23 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:16:23 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:17:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:17:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:17:48 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:17:48 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:17:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:17:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:18:34 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:18:34 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:19:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:19:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:21:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:21:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:37:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:37:07 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/09 23:37:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object nice.user is ok
+[nos ]2019/11/09 23:38:31 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:38:32 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:38:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:38:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/09 23:40:32 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
+[nos ]2019/11/09 23:40:32 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok

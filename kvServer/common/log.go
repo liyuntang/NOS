@@ -24,5 +24,5 @@ func CreateLog(logFile string) *log.Logger {
 		fmt.Println("open logFile", logFile, "is bad, err is", err)
 		os.Exit(0)
 	}
-	return log.New(io.MultiWriter(file, os.Stdout), "[nos ]", log.Lshortfile|log.Ltime|log.Ldate)
+	return log.New(io.MultiWriter(file, os.Stdout), "[nos ]", log.Llongfile|log.Ltime|log.Ldate)
 }

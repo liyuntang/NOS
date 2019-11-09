@@ -5,20 +5,19 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
-	"strings"
 	"time"
 )
 
 func main()  {
-
 	for {
 		// 对象名称
-		objectName := makeString(10)
+		//objectName := makeString(10)
 		// 对象数据
-		data := strings.NewReader(makeString(10240))
+		//data := strings.NewReader(makeString(10240))
 		// 拼接url
-		url := fmt.Sprintf("http://10.10.10.199:9000/%s", objectName)
-		req, err := http.NewRequest("PUT", url, data)
+		url := fmt.Sprintf("http://127.0.0.1:9000/%s", "nice.user")
+		file, _ := os.Open("/Users/liyuntang/go/default/src/NOS/client/put/data.file")
+		req, err := http.NewRequest("PUT", url, file)
 		if err != nil {
 			fmt.Println("new request is bad, err is", err)
 			os.Exit(0)
@@ -30,6 +29,7 @@ func main()  {
 			fmt.Println("do is bad, err is", err1)
 		}
 		fmt.Println("code is", resp.StatusCode, "run time is", time.Since(startTime))
+		os.Exit(0)
 	}
 
 }
