@@ -91,7 +91,6 @@ func zouqi()  {
 // object put接口
 func objectPut(objectName string, data *strings.Reader, fileSize int, sha256_code string) (isok bool) {
 	url := fmt.Sprintf("http://%s/%s", httpServer, objectName)
-	fmt.Println("url is", url)
 	req, err1 := http.NewRequest("PUT", url, data)
 	if err1 != nil {
 		fmt.Println("new request is bad, err is", err1)
@@ -224,10 +223,10 @@ func dowhat()  {
 
 func makeString(LEN int) (nameString string) {
 	list := []string{"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
-		"P","Q","R","S","T","U","V","W","X","Y","Z"}
+		"P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"}
 	var name string
 	for i:=1;i<=LEN;i++ {
-		index :=rand.Intn(25)
+		index :=rand.Intn(len(list))
 		str := list[index]
 		name += str
 	}
