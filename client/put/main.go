@@ -97,8 +97,10 @@ func objectPut(objectName string, data *strings.Reader, fileSize int, sha256_cod
 		return false
 	}
 
-	req.Header.Add("fileSize", strconv.Itoa(fileSize))
-	req.Header.Add("sha256_code", sha256_code)
+	//req.Header.Add("FileSize", strconv.Itoa(fileSize))
+	//req.Header.Add("SncryptionMethod", "sha256")
+	//req.Header.Add("Sha256_code", sha256_code)
+	req.Header.Add("name", "liyuntang")
 	_, err2 := http.DefaultClient.Do(req)
 	if err2 != nil {
 		fmt.Println("client do is bad, err is", err2)

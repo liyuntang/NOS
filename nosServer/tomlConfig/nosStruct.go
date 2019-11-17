@@ -16,6 +16,7 @@ type NOS struct {
 type system struct {
 	Address string	`toml:"address"`
 	Port int	`toml:"port"`
+	TmpDir string	`toml:"tmpDir"`
 	LogFile string	`toml:"logFile"`
 }
 

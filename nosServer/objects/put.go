@@ -4,6 +4,7 @@ import (
 	"NOS/nosServer/encapsulation"
 	"NOS/nosServer/etcd"
 	"NOS/nosServer/metadata"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"math/rand"
@@ -12,9 +13,18 @@ import (
 )
 
 // put操作完整流程如下：
-//	1、如果bojectName不存在，直接执行put操作
-//	2、如果bojectName存在且is_del=0则表示该该object存在，此时返回400错误信息
-//	3、如果bojectName存在且is_del=1则表示该该object不存在，直接执行put操作
+//	1、检查客户端发起的put操作是否符合要求，如果不符合要求则直接返回报错，要求如下：
+// 		1)head中必须要有对象的大小
+// 		2)head中必须要有对象的加密方式（该版本只支持sha256）
+// 		3)head中必须要有对象的sha256值，
+//	2、检查objectName是否存在，判断标准是：
+//		1）如果bojectName不存在，直接执行put操作
+//		2）如果bojectName存在且is_del=1则表示该该object不存在，直接执行put操作
+//		3）如果bojectName存在且is_del=0则表示该该object存在，此时返回400错误信息
+//	3、put操作如下：
+//		1）想将object临时存放到nos组件的tmp目录下，
+// 		2）计算其sha256值，与head中的sha256值进行对比，如果相同则将该object转存到kvserver中，如果不同则返回报错
+//		3) 计算其数据大小，如果与head中的size不同的话，则返回报错，如果相同则转存到kvserver中
 // 由于objectName与数据存储的名字是解耦的，所以即使object满足上面不存在的条件，我们也要判断数据存储的名字是否存在，也就是sha256_code值存不存在
 // 如果sha256_code值存在，则put流程只需要再nos_metadta表中添加一行记录即可
 // 如果sha256_code值不存在，则直接执行put操作
@@ -28,6 +38,7 @@ import (
 
 //func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, data []byte)  {
 func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request)  {
+
 	if isExist {
 		// 说明该object存在，此时返回400
 		WriteLog.Println("sorry, object", objectName, "is exist")
@@ -35,14 +46,14 @@ func put(objectName string, isExist bool, objectInfoMap map[string]string, w htt
 		return
 	}
 
+	fmt.Println(r.Header["FileSize"])
+	return
 	// 此时需要根据data计算sha256_code值，并以此为objectName进行存储
 	// 当我们再往后传递r变量时，发现一个很严重的问题，r.Body的值没了，why?
 	// 这个地方为了解决r.Body值的问题，我们暂时引用一个文件保存该值
 	data, _ := ioutil.ReadAll(r.Body)
 	tmpReader := tmpFile(data)
 	sha256Code := metadata.MakeSha256(data)
-	//fmt.Println("+++++++++++++++++++", string(data))
-	//fmt.Println("-------------------", sha256Code)
 	// 说明该object可能不存在，此时需要判断sha256_code的值，如果sha256_code的值为空，则表示该object真的不存在，如果不为空则只需要在nos_metadta表中添加一行记录即可
 	if metadata.Sha256CodeISOK(sha256Code) {
 		// 说明sha256_code存在，在nos_metadta表中添加一行记录即可

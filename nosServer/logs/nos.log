@@ -939,3 +939,1107 @@
 [nos ]2019/11/09 23:38:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
 [nos ]2019/11/09 23:40:32 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.64:2379] is ok
 [nos ]2019/11/09 23:40:32 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:38: second operation of get is ok
+[nos ]2019/11/17 10:51:28 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:51: put object data.file is ok
+[nos ]2019/11/17 10:53:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 10:53:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/17 12:00:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:00:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:00:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object FLVIFROF is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MOSMHVCXIC is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object WCLHPIHRPB is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ABFDPTRKSF is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QFCDVWQHRR is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object DQFBKTXLVQ is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JAFGPNLHK is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object BTVUQAOGDQ is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XNFUHCPABL is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CREHFOHIQ is ok
+[nos ]2019/11/17 12:01:33 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:33 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VTSFXXTSIG is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SWSVHXJETN is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MNIUUSMKL is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:34 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GPMPVAEBMQ is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object UMACGILHU is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LRAUMIRTLK is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:35 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OPXJSJAPAV is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object NGCAWATTB is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:36 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:37 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LDMRLGWWO is ok
+[nos ]2019/11/17 12:01:37 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:37 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:37 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object EPUPNBKMIS is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object WMCAEGLGH is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LHKJUXHDAH is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:38 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QNAPJEJEDP is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MSJJBUVIA is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QBVFVCGERJ is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JDMVAGNGBD is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:39 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:40 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ERCQDDTOLG is ok
+[nos ]2019/11/17 12:01:40 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:40 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object EEEEMLJHP is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GLUEPOXHE is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:41 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:42 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SKLPPNGFAN is ok
+[nos ]2019/11/17 12:01:42 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:42 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:42 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object EECPLXLWKK is ok
+[nos ]2019/11/17 12:01:42 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object FWPOUNIA is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QCICLFJXFL is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TSJAFVOHH is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object DKBPGDDDAF is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object DKRVOUIONT is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object WMDWSBHTIL is ok
+[nos ]2019/11/17 12:01:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JLVNRDNL is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HAKTUECHWL is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TGMEHAOTX is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HOAIIIFGUK is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GLBAIPHQLS is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object FFVJRBCESL is ok
+[nos ]2019/11/17 12:01:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ALPBGHJBTM is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LWDTTULVJH is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:48 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CMARXHSMX is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JAISMFKCAB is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LJIOCHISKP is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QTLTHVLIMN is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IWPSOWDQQT is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AXNTRHAHWI is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MFWXEWXPUD is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object DKELVIQXWE is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OIXBOWMFDS is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object EBTJINRXVN is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CHVEIOLBPD is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SQQRJDHMDW is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XRKFODGMKD is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HJEPNMQAW is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CBRGEKKXMH is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object FQPDJDADBU is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GMFWRFHAL is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VRLDJLMSIP is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SHHCLROKNU is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QVMEIVEPO is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object DALVMDIIK is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SCRXAQCKFB is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IWWOTKUOW is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CRGXCPPRBH is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OGCHWMIAME is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TCQAXWMFTJ is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TQHUMNXUMK is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object RJAKLPG is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object KROJFKDVHW is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CWUJVUUKI is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:01:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GKSAAVGGOL is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object FJAIKRCFCV is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QHXCTJJWS is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SIJSSEBUU is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SJTUWDFQP is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QUNNPLNRS is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object PKQDVNMMLI is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:02 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XMFVJTOWXV is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CMGANDTNAP is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object PUBAPENEIL is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AOBXDAAMVP is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CDJDVKLOWI is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GXWDLRMV is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QLNDWLQHF is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object APIHFXHPM is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TAMWNJDPPH is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IRWGJSMONH is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object KWSOTSOLAS is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IRLVBNLUHO is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TAPWJBNQNR is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:07 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object PRIGKWMIJM is ok
+[nos ]2019/11/17 12:02:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object WLWDVBFXEQ is ok
+[nos ]2019/11/17 12:02:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:09 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object PNQFVKBFSW is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XVFACVHFNM is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:02:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:02:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MEMLSVAEUO is ok
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MOSMHVCXIC is exist
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WCLHPIHRPB is exist
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ABFDPTRKSF is exist
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QFCDVWQHRR is exist
+[nos ]2019/11/17 12:03:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DQFBKTXLVQ is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAFGPNLHK is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object BTVUQAOGDQ is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XNFUHCPABL is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CREHFOHIQ is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VTSFXXTSIG is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SWSVHXJETN is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MNIUUSMKL is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GPMPVAEBMQ is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object UMACGILHU is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LRAUMIRTLK is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OPXJSJAPAV is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object NGCAWATTB is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LDMRLGWWO is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EPUPNBKMIS is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMCAEGLGH is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LHKJUXHDAH is exist
+[nos ]2019/11/17 12:03:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QNAPJEJEDP is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MSJJBUVIA is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QBVFVCGERJ is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JDMVAGNGBD is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ERCQDDTOLG is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EEEEMLJHP is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLUEPOXHE is exist
+[nos ]2019/11/17 12:03:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SKLPPNGFAN is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EECPLXLWKK is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FWPOUNIA is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QCICLFJXFL is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TSJAFVOHH is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKBPGDDDAF is exist
+[nos ]2019/11/17 12:03:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKRVOUIONT is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMDWSBHTIL is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JLVNRDNL is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HAKTUECHWL is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TGMEHAOTX is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HOAIIIFGUK is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLBAIPHQLS is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FFVJRBCESL is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ALPBGHJBTM is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LWDTTULVJH is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMARXHSMX is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAISMFKCAB is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LJIOCHISKP is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QTLTHVLIMN is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWPSOWDQQT is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AXNTRHAHWI is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MFWXEWXPUD is exist
+[nos ]2019/11/17 12:03:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKELVIQXWE is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OIXBOWMFDS is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EBTJINRXVN is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CHVEIOLBPD is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SQQRJDHMDW is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XRKFODGMKD is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HJEPNMQAW is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CBRGEKKXMH is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FQPDJDADBU is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GMFWRFHAL is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VRLDJLMSIP is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SHHCLROKNU is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QVMEIVEPO is exist
+[nos ]2019/11/17 12:03:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DALVMDIIK is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SCRXAQCKFB is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWWOTKUOW is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CRGXCPPRBH is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OGCHWMIAME is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TCQAXWMFTJ is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TQHUMNXUMK is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object RJAKLPG is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KROJFKDVHW is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CWUJVUUKI is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GKSAAVGGOL is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FJAIKRCFCV is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QHXCTJJWS is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SIJSSEBUU is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SJTUWDFQP is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QUNNPLNRS is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PKQDVNMMLI is exist
+[nos ]2019/11/17 12:03:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XMFVJTOWXV is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMGANDTNAP is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PUBAPENEIL is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AOBXDAAMVP is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CDJDVKLOWI is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GXWDLRMV is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QLNDWLQHF is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object APIHFXHPM is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAMWNJDPPH is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRWGJSMONH is exist
+[nos ]2019/11/17 12:03:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KWSOTSOLAS is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRLVBNLUHO is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAPWJBNQNR is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PRIGKWMIJM is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WLWDVBFXEQ is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PNQFVKBFSW is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XVFACVHFNM is exist
+[nos ]2019/11/17 12:04:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MEMLSVAEUO is exist
+[nos ]2019/11/17 12:04:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MOSMHVCXIC is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WCLHPIHRPB is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ABFDPTRKSF is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QFCDVWQHRR is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DQFBKTXLVQ is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAFGPNLHK is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object BTVUQAOGDQ is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XNFUHCPABL is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CREHFOHIQ is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VTSFXXTSIG is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SWSVHXJETN is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MNIUUSMKL is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GPMPVAEBMQ is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object UMACGILHU is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LRAUMIRTLK is exist
+[nos ]2019/11/17 12:04:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OPXJSJAPAV is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object NGCAWATTB is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LDMRLGWWO is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EPUPNBKMIS is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMCAEGLGH is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LHKJUXHDAH is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QNAPJEJEDP is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MSJJBUVIA is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QBVFVCGERJ is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JDMVAGNGBD is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ERCQDDTOLG is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EEEEMLJHP is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLUEPOXHE is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SKLPPNGFAN is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EECPLXLWKK is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FWPOUNIA is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QCICLFJXFL is exist
+[nos ]2019/11/17 12:04:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TSJAFVOHH is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKBPGDDDAF is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKRVOUIONT is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMDWSBHTIL is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JLVNRDNL is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HAKTUECHWL is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TGMEHAOTX is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HOAIIIFGUK is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLBAIPHQLS is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FFVJRBCESL is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ALPBGHJBTM is exist
+[nos ]2019/11/17 12:04:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LWDTTULVJH is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMARXHSMX is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAISMFKCAB is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LJIOCHISKP is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QTLTHVLIMN is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWPSOWDQQT is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AXNTRHAHWI is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MFWXEWXPUD is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKELVIQXWE is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OIXBOWMFDS is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EBTJINRXVN is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CHVEIOLBPD is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SQQRJDHMDW is exist
+[nos ]2019/11/17 12:04:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XRKFODGMKD is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HJEPNMQAW is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CBRGEKKXMH is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FQPDJDADBU is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GMFWRFHAL is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VRLDJLMSIP is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SHHCLROKNU is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QVMEIVEPO is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DALVMDIIK is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SCRXAQCKFB is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWWOTKUOW is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CRGXCPPRBH is exist
+[nos ]2019/11/17 12:04:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OGCHWMIAME is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TCQAXWMFTJ is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TQHUMNXUMK is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object RJAKLPG is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KROJFKDVHW is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CWUJVUUKI is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GKSAAVGGOL is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FJAIKRCFCV is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QHXCTJJWS is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SIJSSEBUU is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SJTUWDFQP is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QUNNPLNRS is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PKQDVNMMLI is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XMFVJTOWXV is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMGANDTNAP is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PUBAPENEIL is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AOBXDAAMVP is exist
+[nos ]2019/11/17 12:05:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CDJDVKLOWI is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GXWDLRMV is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QLNDWLQHF is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object APIHFXHPM is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAMWNJDPPH is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRWGJSMONH is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KWSOTSOLAS is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRLVBNLUHO is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAPWJBNQNR is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PRIGKWMIJM is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WLWDVBFXEQ is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PNQFVKBFSW is exist
+[nos ]2019/11/17 12:05:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XVFACVHFNM is exist
+[nos ]2019/11/17 12:05:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MEMLSVAEUO is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MOSMHVCXIC is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WCLHPIHRPB is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ABFDPTRKSF is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QFCDVWQHRR is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DQFBKTXLVQ is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAFGPNLHK is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object BTVUQAOGDQ is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XNFUHCPABL is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CREHFOHIQ is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VTSFXXTSIG is exist
+[nos ]2019/11/17 12:05:26 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SWSVHXJETN is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MNIUUSMKL is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GPMPVAEBMQ is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object UMACGILHU is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LRAUMIRTLK is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OPXJSJAPAV is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object NGCAWATTB is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LDMRLGWWO is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EPUPNBKMIS is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMCAEGLGH is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LHKJUXHDAH is exist
+[nos ]2019/11/17 12:05:27 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QNAPJEJEDP is exist
+[nos ]2019/11/17 12:05:28 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MSJJBUVIA is exist
+[nos ]2019/11/17 12:05:28 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QBVFVCGERJ is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JDMVAGNGBD is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ERCQDDTOLG is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EEEEMLJHP is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLUEPOXHE is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SKLPPNGFAN is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EECPLXLWKK is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FWPOUNIA is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QCICLFJXFL is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TSJAFVOHH is exist
+[nos ]2019/11/17 12:05:29 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKBPGDDDAF is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKRVOUIONT is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMDWSBHTIL is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JLVNRDNL is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HAKTUECHWL is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TGMEHAOTX is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HOAIIIFGUK is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLBAIPHQLS is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FFVJRBCESL is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ALPBGHJBTM is exist
+[nos ]2019/11/17 12:05:30 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LWDTTULVJH is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMARXHSMX is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAISMFKCAB is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LJIOCHISKP is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QTLTHVLIMN is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWPSOWDQQT is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AXNTRHAHWI is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MFWXEWXPUD is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKELVIQXWE is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OIXBOWMFDS is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EBTJINRXVN is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CHVEIOLBPD is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SQQRJDHMDW is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XRKFODGMKD is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HJEPNMQAW is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CBRGEKKXMH is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FQPDJDADBU is exist
+[nos ]2019/11/17 12:05:31 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GMFWRFHAL is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VRLDJLMSIP is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SHHCLROKNU is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QVMEIVEPO is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DALVMDIIK is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SCRXAQCKFB is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWWOTKUOW is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CRGXCPPRBH is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OGCHWMIAME is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TCQAXWMFTJ is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TQHUMNXUMK is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object RJAKLPG is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KROJFKDVHW is exist
+[nos ]2019/11/17 12:05:32 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CWUJVUUKI is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GKSAAVGGOL is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FJAIKRCFCV is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QHXCTJJWS is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SIJSSEBUU is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SJTUWDFQP is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QUNNPLNRS is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PKQDVNMMLI is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XMFVJTOWXV is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMGANDTNAP is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PUBAPENEIL is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AOBXDAAMVP is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CDJDVKLOWI is exist
+[nos ]2019/11/17 12:05:33 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GXWDLRMV is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QLNDWLQHF is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object APIHFXHPM is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAMWNJDPPH is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRWGJSMONH is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KWSOTSOLAS is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRLVBNLUHO is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAPWJBNQNR is exist
+[nos ]2019/11/17 12:05:34 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PRIGKWMIJM is exist
+[nos ]2019/11/17 12:05:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WLWDVBFXEQ is exist
+[nos ]2019/11/17 12:05:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PNQFVKBFSW is exist
+[nos ]2019/11/17 12:05:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XVFACVHFNM is exist
+[nos ]2019/11/17 12:05:35 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MEMLSVAEUO is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MOSMHVCXIC is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WCLHPIHRPB is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ABFDPTRKSF is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QFCDVWQHRR is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DQFBKTXLVQ is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAFGPNLHK is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object BTVUQAOGDQ is exist
+[nos ]2019/11/17 12:06:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XNFUHCPABL is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CREHFOHIQ is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VTSFXXTSIG is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SWSVHXJETN is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MNIUUSMKL is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GPMPVAEBMQ is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object UMACGILHU is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LRAUMIRTLK is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OPXJSJAPAV is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object NGCAWATTB is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LDMRLGWWO is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EPUPNBKMIS is exist
+[nos ]2019/11/17 12:06:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMCAEGLGH is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LHKJUXHDAH is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QNAPJEJEDP is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MSJJBUVIA is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QBVFVCGERJ is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JDMVAGNGBD is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ERCQDDTOLG is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EEEEMLJHP is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLUEPOXHE is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SKLPPNGFAN is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EECPLXLWKK is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FWPOUNIA is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QCICLFJXFL is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TSJAFVOHH is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKBPGDDDAF is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKRVOUIONT is exist
+[nos ]2019/11/17 12:06:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMDWSBHTIL is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JLVNRDNL is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HAKTUECHWL is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TGMEHAOTX is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HOAIIIFGUK is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLBAIPHQLS is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FFVJRBCESL is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ALPBGHJBTM is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LWDTTULVJH is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMARXHSMX is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAISMFKCAB is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LJIOCHISKP is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QTLTHVLIMN is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWPSOWDQQT is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AXNTRHAHWI is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MFWXEWXPUD is exist
+[nos ]2019/11/17 12:06:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKELVIQXWE is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OIXBOWMFDS is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EBTJINRXVN is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CHVEIOLBPD is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SQQRJDHMDW is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XRKFODGMKD is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HJEPNMQAW is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CBRGEKKXMH is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FQPDJDADBU is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GMFWRFHAL is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VRLDJLMSIP is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SHHCLROKNU is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QVMEIVEPO is exist
+[nos ]2019/11/17 12:06:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DALVMDIIK is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SCRXAQCKFB is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWWOTKUOW is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CRGXCPPRBH is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OGCHWMIAME is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TCQAXWMFTJ is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TQHUMNXUMK is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object RJAKLPG is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KROJFKDVHW is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CWUJVUUKI is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GKSAAVGGOL is exist
+[nos ]2019/11/17 12:06:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FJAIKRCFCV is exist
+[nos ]2019/11/17 12:06:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QHXCTJJWS is exist
+[nos ]2019/11/17 12:06:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SIJSSEBUU is exist
+[nos ]2019/11/17 12:06:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SJTUWDFQP is exist
+[nos ]2019/11/17 12:06:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QUNNPLNRS is exist
+[nos ]2019/11/17 12:06:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PKQDVNMMLI is exist
+[nos ]2019/11/17 12:06:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XMFVJTOWXV is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMGANDTNAP is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PUBAPENEIL is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AOBXDAAMVP is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CDJDVKLOWI is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GXWDLRMV is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QLNDWLQHF is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object APIHFXHPM is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAMWNJDPPH is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRWGJSMONH is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KWSOTSOLAS is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRLVBNLUHO is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAPWJBNQNR is exist
+[nos ]2019/11/17 12:06:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PRIGKWMIJM is exist
+[nos ]2019/11/17 12:06:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WLWDVBFXEQ is exist
+[nos ]2019/11/17 12:06:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PNQFVKBFSW is exist
+[nos ]2019/11/17 12:06:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XVFACVHFNM is exist
+[nos ]2019/11/17 12:06:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MEMLSVAEUO is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FLVIFROF is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MOSMHVCXIC is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WCLHPIHRPB is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ABFDPTRKSF is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QFCDVWQHRR is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DQFBKTXLVQ is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAFGPNLHK is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object BTVUQAOGDQ is exist
+[nos ]2019/11/17 12:11:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XNFUHCPABL is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CREHFOHIQ is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VTSFXXTSIG is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SWSVHXJETN is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MNIUUSMKL is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GPMPVAEBMQ is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object UMACGILHU is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LRAUMIRTLK is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OPXJSJAPAV is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object NGCAWATTB is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LDMRLGWWO is exist
+[nos ]2019/11/17 12:11:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EPUPNBKMIS is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMCAEGLGH is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LHKJUXHDAH is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QNAPJEJEDP is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MSJJBUVIA is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QBVFVCGERJ is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JDMVAGNGBD is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ERCQDDTOLG is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EEEEMLJHP is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLUEPOXHE is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SKLPPNGFAN is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EECPLXLWKK is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FWPOUNIA is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QCICLFJXFL is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TSJAFVOHH is exist
+[nos ]2019/11/17 12:11:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKBPGDDDAF is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKRVOUIONT is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WMDWSBHTIL is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JLVNRDNL is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HAKTUECHWL is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TGMEHAOTX is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HOAIIIFGUK is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GLBAIPHQLS is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FFVJRBCESL is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object ALPBGHJBTM is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LWDTTULVJH is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMARXHSMX is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object JAISMFKCAB is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object LJIOCHISKP is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QTLTHVLIMN is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWPSOWDQQT is exist
+[nos ]2019/11/17 12:11:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AXNTRHAHWI is exist
+[nos ]2019/11/17 12:11:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MFWXEWXPUD is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DKELVIQXWE is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OIXBOWMFDS is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object EBTJINRXVN is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CHVEIOLBPD is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SQQRJDHMDW is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XRKFODGMKD is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object HJEPNMQAW is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CBRGEKKXMH is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FQPDJDADBU is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GMFWRFHAL is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object VRLDJLMSIP is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SHHCLROKNU is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QVMEIVEPO is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object DALVMDIIK is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SCRXAQCKFB is exist
+[nos ]2019/11/17 12:11:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IWWOTKUOW is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CRGXCPPRBH is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object OGCHWMIAME is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TCQAXWMFTJ is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TQHUMNXUMK is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object RJAKLPG is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KROJFKDVHW is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CWUJVUUKI is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GKSAAVGGOL is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object FJAIKRCFCV is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QHXCTJJWS is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SIJSSEBUU is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object SJTUWDFQP is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QUNNPLNRS is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PKQDVNMMLI is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XMFVJTOWXV is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CMGANDTNAP is exist
+[nos ]2019/11/17 12:11:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PUBAPENEIL is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object AOBXDAAMVP is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object CDJDVKLOWI is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object GXWDLRMV is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object QLNDWLQHF is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object APIHFXHPM is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAMWNJDPPH is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRWGJSMONH is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object KWSOTSOLAS is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object IRLVBNLUHO is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object TAPWJBNQNR is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PRIGKWMIJM is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object WLWDVBFXEQ is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object PNQFVKBFSW is exist
+[nos ]2019/11/17 12:11:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object XVFACVHFNM is exist
+[nos ]2019/11/17 12:11:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:33: sorry, object MEMLSVAEUO is exist
+[nos ]2019/11/17 12:11:41 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:41 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:41 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 1GUG6B0PB is ok
+[nos ]2019/11/17 12:11:41 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:41 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:42 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object T8C4RHW22 is ok
+[nos ]2019/11/17 12:11:42 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:42 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 7SZCJNNSYJ is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XL8MSKLBA is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:43 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object J64CSALLHK is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AJVGN0P7C is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:44 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TXB9OKVJ00 is ok
+[nos ]2019/11/17 12:11:45 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:45 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:45 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object EW6YVN0KU is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object X3XI5ZVBSA is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HIEJTY1T2F is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:46 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object XHWARHE6A4 is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OUYSKJ96F is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AAD6ULCHF1 is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MB9VBIKCMS is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:47 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:48 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 1CZOVIV577 is ok
+[nos ]2019/11/17 12:11:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:49 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 4D83Q6KCC is ok
+[nos ]2019/11/17 12:11:49 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:49 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object B7KWI26V94 is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 3OD4VKE1X is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:50 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HI900SZEYT is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HQDF40CJCL is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:51 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VCDF09OI3O is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JY6W4KP6PC is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object HSC1DGTQRJ is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:52 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IM5MRV8X7K is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object RBROZRSZSU is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:53 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:54 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object NAWUD6NZE is ok
+[nos ]2019/11/17 12:11:54 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:54 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object GPLY76VYX5 is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 8LNI5GUE5 is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 4653XJ2RMF is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:55 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 04MLGR2LJZ is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 61RTPITXO is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:56 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 842CM1LS7 is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OORNSJE2UX is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:57 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object I0AKSGNHH is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object BULMVWSSUH is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 5TH5ULJL9X is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:58 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object H1GPS03H9 is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 8EZOIDCOMC is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:11:59 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object OFV2U07OM3 is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object W7FV8QNG7R is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object P1X15AWPN7 is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:00 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AM6R5IW5KN is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object CTXE9AAVWQ is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object BK93LAC4D6 is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:01 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object IV5S06TSJQ is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object RBWDVH2K1K is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:02 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object UAQAQYJV3 is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 6JOGGRJT5U is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object D3IF6ETJLD is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:03 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 6U7C5EFUH is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object S4UHS4IW0T is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:04 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 3CGVFYZWP2 is ok
+[nos ]2019/11/17 12:12:05 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:05 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:05 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 6WRBV8SZP6 is ok
+[nos ]2019/11/17 12:12:05 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:05 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ZJZ8MGLP8 is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object JH4GEPP6ZB is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:06 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:07 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 817JKZ24A is ok
+[nos ]2019/11/17 12:12:07 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:07 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object E33GMEJYZJ is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 78D4ZWIFGY is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object P5P47ID3G6 is ok
+[nos ]2019/11/17 12:12:08 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 9N09LJKWW8 is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 3CJ86GEROZ is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:09 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 9JLTAKR5GO is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MOVRZIDOKZ is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:10 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 6YBGDPU14X is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object YY6N3I2GD8 is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object H2FA5E6WFC is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:11 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object MXND0UFZFO is ok
+[nos ]2019/11/17 12:12:12 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:12 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:12 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object NHN7VE5HSH is ok
+[nos ]2019/11/17 12:12:12 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:12 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 1I7FER6EOS is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QMKP3SI113 is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 7CKJY98NDU is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:13 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object D24NS5H494 is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 9IXUFEN84 is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object S61KQFJJN3 is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:14 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VCING3K33B is ok
+[nos ]2019/11/17 12:12:15 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:15 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:15 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SX5PZLXRYH is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object X17WY2DYUQ is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object D3WJ05QXKY is ok
+[nos ]2019/11/17 12:12:16 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QP2PAG5GB3 is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object TA2I7X9U6 is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object S9SK8CVNKW is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:17 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AXAQWW0SH is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object I7SJH0UJ71 is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object SNMR7Q1I is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:18 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ZJXYHYLBS0 is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object LYYKJ7U956 is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 1WNWMKEH0K is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:19 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object QV8NA87RP is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object C0DSEVXHC is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VC9V9Z5ISA is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object A6GY2HB5T9 is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:20 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:21 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 4CP4EHH8V8 is ok
+[nos ]2019/11/17 12:12:21 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:21 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:21 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object VL0YDP7KG is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ACDTBE3CVK is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object AS2QVL44OT is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:22 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 41SCIVLZI is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 9VAZNT703Z is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object Z0P0SCX77 is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:23 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:24 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object ZPL0KQW2JY is ok
+[nos ]2019/11/17 12:12:24 /Users/liyuntang/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.43:2379] is ok
+[nos ]2019/11/17 12:12:24 /Users/liyuntang/go/default/src/NOS/nosServer/encapsulation/put.go:28: second operation of put is ok
+[nos ]2019/11/17 12:12:24 /Users/liyuntang/go/default/src/NOS/nosServer/objects/put.go:69: put object 8NLLKCVF8 is ok

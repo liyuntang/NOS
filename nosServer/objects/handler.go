@@ -25,9 +25,13 @@ var (
 //				如果该值为0(未删除)则将其设置为1(已删除)
 //				如果该值为1则直接返回404
 //			如果该objectName不存在，则直接返回404
-//		如果method==put则到metada表里查询该objectName
-//			如果objectName存在且is_del=0则表示该object存在，返回500(文件已存在)
-//			如果objectName存在且is_del=1或者objectName为空则表示该object不存在，此时需要计算其sha256的值，并以该值为objectName，存入随机选中的kvserver
+//		如果method==put则首先判读put请求是否符合要求，在符合要求的情况下到metada表里查询该objectName
+//			如果objectName存在且is_del=0则表示该object存在，返回400(文件已存在)
+//			如果objectName存在且is_del=1或者objectName为空则表示该object不存在，此时需要如下操作：
+// 			1、检查客户端发起的put操作是否符合要求，要求如下：head中必须要有对象的大小、对象的加密方式（该版本只支持sha256），对象的sha256值，否则直接返回报错
+//			2、如果客户端发起的put操作是否符合要求则将对象临时存放在nos组件的tmp目录下
+// 			3、在本地计算其sha256的值，并与客户端发送过来的sha256值进行对不，如果不相同，则返回报错
+// 			4、如果sha256值相同则以该值为objectName，存入随机选中的kvserver
 
 // 2、广播过程如下：
 // 		1）从etcd中获取kvserver信息
@@ -61,7 +65,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			// get
 			get(objectName, isok, objectInfoMap, w, r)
 		} else if strings.ToLower(method) == "put" {
-			// put
+			// 说明文件不存在，进行put操作
 			put(objectName, isok, objectInfoMap, w, r)
 		} else {
 			// delete
