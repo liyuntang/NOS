@@ -4,7 +4,6 @@ import (
 	"crypto/sha256"
 	"flag"
 	"fmt"
-	"io"
 	"io/ioutil"
 	"math/rand"
 	"net/http"
@@ -61,7 +60,7 @@ func zouqi()  {
 			// 计算sha256_code值
 			sha256_code := MakeSha256(dataToByte(file))
 			// put
-			if put(file, fileSize, sha256_code) {
+			if filePut(file, fileSize, sha256_code) {
 				fmt.Println("put file", file, "is ok")
 			} else {
 				fmt.Println("put file", file, "is bad")
@@ -69,30 +68,53 @@ func zouqi()  {
 		}
 	} else {
 		// 说明要随机上传
-		// 获取文件名称
-		objectName := makeString(10)
+		for i:=1;i<=count;i++ {
 
-		// 根据指定的文件大小生成数据
-		data := makeString(size)
-		//data := strings.NewReader()
-		// 计算sha256_code值
-		sha256_code := MakeSha256([]byte(data))
-		// put
-		if put("tmp.file", size, sha256_code) {
-			fmt.Println("put", objectName, "is ok")
-		} else {
-			fmt.Println("put", objectName, "is ok")
+			// 获取文件名称
+			objectName := makeString(10)
+			fmt.Println("开始上传第", i, "个对象，对象名称为", objectName)
+			// 根据指定的文件大小生成数据
+			data := makeString(size)
+			// 计算sha256_code值
+			sha256_code := MakeSha256([]byte(data))
+			// put
+			if objectPut(objectName, strings.NewReader(data), size, sha256_code) {
+				fmt.Println("上传", objectName, "到服务器成功")
+			} else {
+				fmt.Println("上传", objectName, "到服务器失败")
+			}
 		}
+
 	}
 }
 
-// 统一put接口
-func put(file string, fileSize int, sha256_code string) (isok bool) {
-	if dstName == " " {
+// object put接口
+func objectPut(objectName string, data *strings.Reader, fileSize int, sha256_code string) (isok bool) {
+	url := fmt.Sprintf("http://%s/%s", httpServer, objectName)
+	fmt.Println("url is", url)
+	req, err1 := http.NewRequest("PUT", url, data)
+	if err1 != nil {
+		fmt.Println("new request is bad, err is", err1)
+		return false
+	}
+
+	req.Header.Add("fileSize", strconv.Itoa(fileSize))
+	req.Header.Add("sha256_code", sha256_code)
+	_, err2 := http.DefaultClient.Do(req)
+	if err2 != nil {
+		fmt.Println("client do is bad, err is", err2)
+		return false
+	}
+	return true
+}
+// fileput接口
+func filePut(file string, fileSize int, sha256_code string) (isok bool) {
+	if dstName == "" {
 		_, file := path.Split(file)
 		dstName = file
 	}
-	url := fmt.Sprintf("%s/%s", httpServer, dstName)
+	fmt.Println("dstName is", dstName)
+	url := fmt.Sprintf("http://%s/%s", httpServer, dstName)
 	f, err := os.Open(file)
 	if err != nil {
 		fmt.Println("打开文件失败", file)
@@ -114,21 +136,6 @@ func put(file string, fileSize int, sha256_code string) (isok bool) {
 	return true
 }
 
-// write data to tmp file
-func write(data string, size int) bool {
-	file, err := os.OpenFile("tmp.file", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
-	defer file.Close()
-	if err != nil {
-		fmt.Println("write data to tmp file is bad, err is", err)
-		return false
-	}
-	n, err1 := io.WriteString(file, data)
-	if err1 != nil || n != size {
-		fmt.Println("write data to tmp file is bad, err is", err)
-		return false
-	}
-	return true
-}
 // 计算sha256_code值
 func MakeSha256(buf []byte) string {
 	h := sha256.New()
@@ -158,7 +165,8 @@ func getFileSize(file string) int {
 		fmt.Println("获取文件状态失败", file)
 		return -1
 	}
-	n, err1 := strconv.Atoi(strconv.FormatInt(fileInfo.Size(), 64))
+
+	n, err1 := strconv.Atoi(strconv.FormatInt(fileInfo.Size(), 10))
 	if err1 != nil {
 		fmt.Println("get file size is bad, err is", err1)
 		return -1
