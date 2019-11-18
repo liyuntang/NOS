@@ -2,7 +2,6 @@ package encapsulation
 
 import (
 	"fmt"
-	"io"
 	"log"
 	"net/http"
 )
@@ -19,8 +18,8 @@ func SecondOperationGet(objectName, kvserver, method string, w http.ResponseWrit
 }
 
 //
-func SecondOperationPut(objectName, kvserver string, data io.Reader) (isok bool) {
+func SecondOperationPut(objectName, kvserver, tmpFile string) (isok bool) {
 	// 封装url
 	url := fmt.Sprintf("http://%s/%s", kvserver, objectName)
-	return put(url, data)
+	return put(url, tmpFile)
 }

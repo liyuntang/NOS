@@ -40,6 +40,7 @@ func main()  {
 	// 赋值几个变量
 	objects.WriteLog = nlog
 	objects.EtcdServer = configration.Etcd
+	objects.TmpDir = configration.System.TmpDir
 
 	metadata.WriteLog = nlog
 	metadata.MetaDataHostInfo = configration.Metadata

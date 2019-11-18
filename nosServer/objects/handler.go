@@ -13,6 +13,7 @@ import (
 var (
 	WriteLog   *log.Logger
 	EtcdServer tomlConfig.ETCD
+	TmpDir string
 )
 
 // 该函数为接入层的处理函数，处理流程如下：
@@ -66,7 +67,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			get(objectName, isok, objectInfoMap, w, r)
 		} else if strings.ToLower(method) == "put" {
 			// 说明文件不存在，进行put操作
-			put(objectName, isok, objectInfoMap, w, r)
+			put(objectName, objectInfoMap, w, r)
 		} else {
 			// delete
 			delete(objectName, isok, objectInfoMap, w)

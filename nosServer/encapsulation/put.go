@@ -1,15 +1,19 @@
 package encapsulation
 
 import (
-	"fmt"
-	"io"
 	"net/http"
+	"os"
 )
 
-func put(url string, reader io.Reader) bool{
+func put(url, tmpFile string) bool{
 	// 根据URL发起put请求
-	fmt.Println("start put=====================")
-	req, err := http.NewRequest("PUT", url, reader)
+	file, err2 := os.Open(tmpFile)
+	defer file.Close()
+	if err2 != nil {
+		WriteLog.Println("open tmpFile", tmpFile, "is bad, err is", err2)
+		return false
+	}
+	req, err := http.NewRequest("PUT", url, file)
 	if err != nil {
 		// 生成put请求失败
 		WriteLog.Println("second operation of make put request is bad, err is", err)

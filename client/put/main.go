@@ -96,14 +96,15 @@ func objectPut(objectName string, data *strings.Reader, fileSize int, sha256_cod
 		fmt.Println("new request is bad, err is", err1)
 		return false
 	}
-
-	//req.Header.Add("FileSize", strconv.Itoa(fileSize))
-	//req.Header.Add("SncryptionMethod", "sha256")
-	//req.Header.Add("Sha256_code", sha256_code)
-	req.Header.Add("name", "liyuntang")
-	_, err2 := http.DefaultClient.Do(req)
+	req.Header.Add("FileSize", strconv.Itoa(fileSize))
+	req.Header.Add("SncryptionMethod", "sha256")
+	req.Header.Add("Sha256_code", sha256_code)
+	resp, err2 := http.DefaultClient.Do(req)
 	if err2 != nil {
 		fmt.Println("client do is bad, err is", err2)
+		return false
+	}
+	if resp.StatusCode != 200 {
 		return false
 	}
 	return true
@@ -128,10 +129,16 @@ func filePut(file string, fileSize int, sha256_code string) (isok bool) {
 	}
 
 	req.Header.Add("fileSize", strconv.Itoa(fileSize))
-	req.Header.Add("sha256_code", sha256_code)
-	_, err2 := http.DefaultClient.Do(req)
+	//req.Header.Add("sha256_code", sha256_code)
+	req.Header.Add("sha256_code", "aaaaa")
+	req.Header.Set("SncryptionMethod", "sha256")
+	resp, err2 := http.DefaultClient.Do(req)
 	if err2 != nil {
 		fmt.Println("client do is bad, err is", err2)
+		return false
+	}
+	if resp.StatusCode != 200 {
+		fmt.Println("put object", file, "is bad")
 		return false
 	}
 	return true
@@ -224,7 +231,7 @@ func dowhat()  {
 }
 
 func makeString(LEN int) (nameString string) {
-	list := []string{"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
+	list := []string{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 		"P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"}
 	var name string
 	for i:=1;i<=LEN;i++ {
