@@ -1,7 +1,6 @@
 package objects
 
 import (
-	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -20,9 +19,7 @@ func put(w http.ResponseWriter, r *http.Request, objectPath string)  {
 			w.WriteHeader(http.StatusBadRequest)
 			return
 		}
-		n, err1 := file.Write(buf)
-		//n, err1 := io.Copy(file, r.Body)
-		fmt.Println("写入了", n, "字节数据")
+		_, err1 := file.Write(buf)
 		if err1 != nil {
 			// 说明写入失败，
 			w.WriteHeader(http.StatusExpectationFailed)
