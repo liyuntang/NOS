@@ -1,14 +1,15 @@
 package objects
 
 import (
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 )
 
 func put(w http.ResponseWriter, r *http.Request, objectPath string)  {
+	defer r.Body.Close()
 	// 查看文件是否存在
-	buf, _ := ioutil.ReadAll(r.Body)
+	//buf, _ := ioutil.ReadAll(r.Body)
 	_, err := os.Stat(objectPath)
 	if os.IsNotExist(err) {
 		// 说明文件不存在,存入文件即可
@@ -19,7 +20,8 @@ func put(w http.ResponseWriter, r *http.Request, objectPath string)  {
 			w.WriteHeader(http.StatusBadRequest)
 			return
 		}
-		_, err1 := file.Write(buf)
+		//_, err1 := file.Write(buf)
+		_, err1 := io.Copy(file, r.Body)
 		if err1 != nil {
 			// 说明写入失败，
 			w.WriteHeader(http.StatusExpectationFailed)

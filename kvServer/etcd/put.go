@@ -20,7 +20,7 @@ func Put(config tomlConfig.ETCD, endPoint string, logger *log.Logger)  {
 		return
 	}
 	// 说明连接etcd成功
-	//logger.Println("connect to etcd", config.EtcdServers, "is ok")
+	logger.Println("connect to etcd", config.EtcdServers, "is ok")
 	// 获取ctx
 	ctx, _ := context.WithCancel(context.TODO())
 
@@ -29,10 +29,12 @@ func Put(config tomlConfig.ETCD, endPoint string, logger *log.Logger)  {
 	lgr, err := lease.Grant(context.TODO(), config.Lease)
 	if err != nil {
 		logger.Println("set lease is bad, err is", err)
+		return
 	}
 	_, err1 := cli.Put(ctx, config.EtcdDir, endPoint, clientv3.WithLease(lgr.ID))
 	if err1 != nil {
 		logger.Println("sorry, put is bad, err is", err1)
+		return
 	}
-	//logger.Println("put is ok", )
+	logger.Println("put is ok", )
 }
