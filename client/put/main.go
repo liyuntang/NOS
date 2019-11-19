@@ -74,7 +74,9 @@ func zouqi()  {
 			objectName := makeString(10)
 			fmt.Println("开始上传第", i, "个对象，对象名称为", objectName)
 			// 根据指定的文件大小生成数据
+			fmt.Println("获取object数据")
 			data := makeString(size)
+			fmt.Println("获取object数据完成")
 			// 计算sha256_code值
 			sha256_code := MakeSha256([]byte(data))
 			// put
