@@ -39,13 +39,15 @@ import (
 // 如果sha256_code值不存在，则直接执行put操作
 // 也就是说针对put操作的情况我们不仅要判断isExist，还要判断sha256_code的值
 
-// put流程分两个操作：
+// put流程分两个操作：(优先将数据存入kvserver，然后在记录metadata，metadata的优先级小于数据存储)
 //	1、数据服务层存入数据
 //	2、metadata记录元数据
 // 只有这两个操作同时成功才表示该object的put成功
 
 //func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, data []byte)  {
 func put(objectName string, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
+	// 不要忘了关闭连接
+	defer r.Body.Close()
 	// 判断用户的head设置是否符合要求
 	for _, key := range []string{"Filesize", "Sha256_code", "Sncryptionmethod"} {
 		_, isok := r.Header[key]
@@ -124,7 +126,13 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 
 	// 1、从etcd中获取kvserver信息
 	kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
-	// 随机抽取一台kvserver执行put操作即可
+	if len(kvservers) == 0{
+		// 说明没有从etcd中取到kvserver，此时直接报错
+		WriteLog.Println("get kvserver is bad")
+		w.WriteHeader(400)
+		return
+	}
+	// 说明从etcd中获取kvserver成功，随机抽取一台kvserver执行put操作即可
 	kvserver := kvservers[rand.Intn(len(kvservers))]
 	// 封装put操作,这个地方put操作应该有个返回值，
 	if encapsulation.SecondOperationPut(sha256, kvserver, tmpFile) {
