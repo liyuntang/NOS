@@ -11,6 +11,7 @@ import (
 	"path"
 	"strconv"
 	"strings"
+	"time"
 )
 
 // 定义几个变量
@@ -48,6 +49,7 @@ func main()  {
 func zouqi()  {
 	if mode == "file" {
 		// 说明是上传指定文件
+		startTime := time.Now()
 		// 将files接收的参数转化为slice
 		fileSlice := fileToSlice()
 		// 根据文件获取sha256_code值、文件大小及添加head，并将数据转化为[]byte类型，这些操作似乎都是通用的
@@ -61,17 +63,17 @@ func zouqi()  {
 			sha256_code := MakeSha256(dataToByte(file))
 			// put
 			if filePut(file, fileSize, sha256_code) {
-				fmt.Println("put file", file, "is ok")
+				fmt.Println("put file", file, "is ok, time is", time.Since(startTime))
 			} else {
-				fmt.Println("put file", file, "is bad")
+				fmt.Println("put file", file, "is bad, time is", time.Since(startTime))
 			}
 		}
 	} else {
 		// 说明要随机上传
 		for i:=1;i<=count;i++ {
-
+			startTime := time.Now()
 			// 获取文件名称
-			objectName := makeString(10)
+			objectName := makeString(15)
 			fmt.Println("开始上传第", i, "个对象，对象名称为", objectName)
 			// 根据指定的文件大小生成数据
 			data := makeString(size)
@@ -79,9 +81,9 @@ func zouqi()  {
 			sha256_code := MakeSha256([]byte(data))
 			// put
 			if objectPut(objectName, strings.NewReader(data), size, sha256_code) {
-				fmt.Println("上传", objectName, "到服务器成功")
+				fmt.Println("上传", objectName, "到服务器成功, time is", time.Since(startTime))
 			} else {
-				fmt.Println("上传", objectName, "到服务器失败")
+				fmt.Println("上传", objectName, "到服务器失败 time is", time.Since(startTime))
 			}
 		}
 
