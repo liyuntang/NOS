@@ -8,7 +8,7 @@ logFile = "/Users/nice/go/default/src/NOS/nosServer/logs/nos.log"
 [etcd]
 etcdTimeOut = 1
 etcdDir = "/nos/kvservers"
-etcdServers = ["10.10.10.199:2379"]
+etcdServers = ["10.10.10.43:2379"]
 
 [metadata]
 user = "admin_m"

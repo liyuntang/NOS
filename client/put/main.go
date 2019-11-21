@@ -73,7 +73,7 @@ func zouqi()  {
 		for i:=1;i<=count;i++ {
 			startTime := time.Now()
 			// 获取文件名称
-			objectName := makeString(15)
+			objectName := makeString(3)
 			fmt.Println("开始上传第", i, "个对象，对象名称为", objectName)
 			// 根据指定的文件大小生成数据
 			data := makeString(size)
