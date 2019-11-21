@@ -131,8 +131,7 @@ func filePut(file string, fileSize int, sha256_code string) (isok bool) {
 	}
 
 	req.Header.Add("fileSize", strconv.Itoa(fileSize))
-	//req.Header.Add("sha256_code", sha256_code)
-	req.Header.Add("sha256_code", "aaaaa")
+	req.Header.Add("sha256_code", sha256_code)
 	req.Header.Set("SncryptionMethod", "sha256")
 	resp, err2 := http.DefaultClient.Do(req)
 	if err2 != nil {
