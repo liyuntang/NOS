@@ -11,7 +11,8 @@ func Search(w http.ResponseWriter, r *http.Request)  {
 	// 获取objectName
 	objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(),"/")[2])
 	// 拼接全路径
-	objectPath := fmt.Sprintf("%s/%s", DataDir, objectName)
+	gFile := fmt.Sprintf("%s.gz", objectName)
+	objectPath := fmt.Sprintf("%s/%s", DataDir, gFile)
 	// 查看objectName状态
 	// 查看文件是否存在
 	_, err := os.Stat(objectPath)
