@@ -52,10 +52,10 @@ var (
 func Handler(w http.ResponseWriter, r *http.Request) {
 	// 判断请求方法
 	method := r.Method
-	// 获取objectName
-	objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(), "/")[1])
 	// 根据系统设定我们只支持get、put、delete都是可允许的正常需求
 	if strings.ToLower(method) == "get" || strings.ToLower(method) == "put" || strings.ToLower(method) == "delete" {
+		// 获取objectName
+		objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(), "/")[1])
 		// 说明客户端发起的请求是我们可允许的，下面对object进行判断
 		// 不管是get、put还是delete都需要确认object是否存在
 		// 如果存在则返回true以及一个存放了object信息的map
