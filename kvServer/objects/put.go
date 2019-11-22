@@ -6,56 +6,45 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"strings"
 )
 
-func put(w http.ResponseWriter, r *http.Request, objectPath string)  {
-	defer r.Body.Close()
-	gFile := fmt.Sprintf("%s.gz", objectPath)
-	_, err := os.Stat(gFile)
-	if os.IsNotExist(err) {
-		// 说明文件不存在,存入文件即可
-		file, err := os.OpenFile(gFile, os.O_CREATE|os.O_WRONLY, 0644)
-		defer file.Close()
-		if err != nil {
-			WriteLog.Println("open file", gFile, "is bad")
-			w.WriteHeader(http.StatusBadRequest)
-			return
-		}
-		// 将数据压缩存入文件
-		buf, _ := ioutil.ReadAll(r.Body)
-		if gzipWrite(file, buf) {
-			// 说明写入数据成功
-			w.WriteHeader(http.StatusOK)
-			WriteLog.Println("write file", gFile, "is ok")
-			return
-		}
-		// 说明写入数据失败
-			w.WriteHeader(http.StatusExpectationFailed)
-			WriteLog.Println("write to file", gFile, "is bad")
-			return
-		//_, err1 := io.Copy(file, r.Body)
-		//if err1 != nil {
-		//	// 说明写入失败，
-		//	w.WriteHeader(http.StatusExpectationFailed)
-		//	WriteLog.Println("write to file", objectPath, "is bad")
-		//	return
-		//}
-		//// 说明写入成功
-		//w.WriteHeader(http.StatusOK)
-		//WriteLog.Println("write file", objectPath, "is ok")
-		//return
+func put(w http.ResponseWriter, r *http.Request)  {
+	// 获取object_name
+	gFile := fmt.Sprintf("%s/%s.gz", DataDir, strings.Split(r.URL.EscapedPath(),"/")[1])
+	fmt.Println("gFile is", gFile)
+
+	// 将数据转换成[]byte类型
+	buf, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		WriteLog.Println("read data is bad, err is", err)
+		w.WriteHeader(500)
+		return
 	}
-	// 说明文件存在，提示w文件已存在
-	w.WriteHeader(http.StatusInternalServerError)
-	WriteLog.Println("sorry object", objectPath, "is exist")
+	// 将数据写入gFile
+	if writeFile(gFile, buf) {
+		WriteLog.Println("write data to gFile", gFile, "is ok")
+		w.WriteHeader(200)
+		return
+	}
+	WriteLog.Println("write data to gFile", gFile, "is bad")
+	w.WriteHeader(500)
 	return
 }
 
-func gzipWrite(file *os.File, data []byte) bool {
-	// 初始化write
-	gWrite := gzip.NewWriter(file)
+func writeFile(gFile string, data []byte) bool {
+	// 打开gFile
+	file, err := os.Create(gFile)
+	defer file.Close()
+	if err != nil {
+		return false
+	}
+	// 生成一个writer
+	gWriter := gzip.NewWriter(file)
+	defer gWriter.Close()
 	// 写入数据
-	_, err1 := gWrite.Write(data)
+	n, err1 := gWriter.Write(data)
+	fmt.Println("n is", n)
 	if err1 != nil {
 		return false
 	}
