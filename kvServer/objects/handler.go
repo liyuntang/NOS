@@ -1,10 +1,8 @@
 package objects
 
 import (
-	"fmt"
 	"log"
 	"net/http"
-	"strings"
 )
 
 // 定义几个该包的全局变量
@@ -18,11 +16,9 @@ func Handler(w http.ResponseWriter, r *http.Request)  {
 	// 判断请求方法
 	method := r.Method
 
-	// 获取object_name
-	objectPath := fmt.Sprintf("%s/%s", DataDir, strings.Split(r.URL.EscapedPath(),"/")[1])
 	if method == http.MethodGet {
 		// get
-		get(w, objectPath)
+		get(w, r)
 	} else {
 		// put
 		put(w, r)

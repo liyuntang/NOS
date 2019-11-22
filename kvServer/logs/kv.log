@@ -33957,3 +33957,28 @@
 [nos ]2019/11/21 11:43:31 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
 [nos ]2019/11/21 11:43:32 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.43:2379] is ok
 [nos ]2019/11/21 11:43:32 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 15:59:02 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 15:59:02 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 15:59:02 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 15:59:02 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:01:49 /Users/nice/go/default/src/NOS/kvServer/objects/put.go:29: write file /Users/nice/go/default/src/NOS/kvServer/data/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25.gz is ok
+[nos ]2019/11/22 16:02:24 /Users/nice/go/default/src/NOS/kvServer/objects/put.go:29: write file /Users/nice/go/default/src/NOS/kvServer/data/381d628e5658688872aea626c192e43caeefd07db317ac7a11f8b3c4432c5509.gz is ok
+[nos ]2019/11/22 16:07:43 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:07:43 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:07:43 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:07:43 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:15:16 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:15:16 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:15:16 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:15:16 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:16:25 /Users/nice/go/default/src/NOS/kvServer/objects/put.go:26: write data to gFile /Users/nice/go/default/src/NOS/kvServer/data/381d628e5658688872aea626c192e43caeefd07db317ac7a11f8b3c4432c5509.gz is ok
+[nos ]2019/11/22 16:18:37 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:18:37 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:18:37 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:18:37 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:18:44 /Users/nice/go/default/src/NOS/kvServer/objects/put.go:26: write data to gFile /Users/nice/go/default/src/NOS/kvServer/data/381d628e5658688872aea626c192e43caeefd07db317ac7a11f8b3c4432c5509.gz is ok
+[nos ]2019/11/22 16:23:19 /Users/nice/go/default/src/NOS/kvServer/objects/put.go:26: write data to gFile /Users/nice/go/default/src/NOS/kvServer/data/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25.gz is ok
+[nos ]2019/11/22 16:41:05 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:41:05 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:23: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/22 16:41:05 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok
+[nos ]2019/11/22 16:41:05 /Users/nice/go/default/src/NOS/kvServer/etcd/put.go:39: put is ok

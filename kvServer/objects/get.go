@@ -6,11 +6,13 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strings"
 )
 
-func get(w http.ResponseWriter, objectPath string)  {
+func get(w http.ResponseWriter, r *http.Request)  {
+	// 获取object_name
+	gFile := fmt.Sprintf("%s/%s.gz", DataDir, strings.Split(r.URL.EscapedPath(),"/")[1])
 	// 查看文件是否存在
-	gFile := fmt.Sprintf("%s.gz", objectPath)
 	_, err := os.Stat(gFile)
 	if os.IsNotExist(err) {
 		// 说明文件不存在

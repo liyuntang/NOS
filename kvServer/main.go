@@ -50,7 +50,7 @@ func main()  {
 		for {
 			// 这个地方要注意注册的频率，一定要小于lease
 			etcd.Put(configration.Etcd, endPoint, kvlog)
-			time.Sleep(1*time.Second)
+			time.Sleep(3599*time.Second)
 		}
 	}()
 
