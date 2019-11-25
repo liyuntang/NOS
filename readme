@@ -49,3 +49,9 @@
 6、object状态如下：
     1）objectName存在且is_del=0则表示该object存在
     2）如果objectName存在且is_del=1或者objectName为空则表示该object不存在
+
+7、pdServer功能设计：
+    1）接收kvServer状态上报（object数量，data目录大小）
+    2）均衡kvServer数据目录的大小
+    3）检查kvServer上的object是否有损坏，如果有损坏则进行修复
+    4）如果nosServer请求到的object存在数据不完整情况，则将该object回报给pdServer，pdServer进行修复
