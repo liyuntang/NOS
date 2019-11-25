@@ -55,3 +55,6 @@
     2）均衡kvServer数据目录的大小
     3）检查kvServer上的object是否有损坏，如果有损坏则进行修复
     4）如果nosServer请求到的object存在数据不完整情况，则将该object回报给pdServer，pdServer进行修复
+
+8、注意事项：
+    1）nosServer配置文件中的max_replicas参数用于指定副本集数量，如果该值大于kvServer的数量则该系统会报错
