@@ -14,6 +14,7 @@ var (
 	WriteLog   *log.Logger
 	EtcdServer tomlConfig.ETCD
 	TmpDir string
+	MaxReplicas int
 )
 
 // 该函数为接入层的处理函数，处理流程如下：

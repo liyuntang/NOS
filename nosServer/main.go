@@ -41,11 +41,13 @@ func main()  {
 	objects.WriteLog = nlog
 	objects.EtcdServer = configration.Etcd
 	objects.TmpDir = configration.System.TmpDir
+	objects.MaxReplicas = configration.System.Max_replicas
 
 	metadata.WriteLog = nlog
 	metadata.MetaDataHostInfo = configration.Metadata
 
 	encapsulation.WriteLog = nlog
+
 
 	// 启动一个http作为接入层，对外提供服务
 	httpEndPoint := fmt.Sprintf("%s:%d", configration.System.Address, configration.System.Port)

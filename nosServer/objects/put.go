@@ -2,7 +2,6 @@ package objects
 
 import (
 	"NOS/nosServer/encapsulation"
-	"NOS/nosServer/etcd"
 	"NOS/nosServer/metadata"
 	"fmt"
 	"io"
@@ -46,8 +45,6 @@ import (
 
 //func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, data []byte)  {
 func put(objectName string, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
-	// 不要忘了关闭连接
-	defer r.Body.Close()
 	// 判断用户的head设置是否符合要求
 	for _, key := range []string{"Filesize", "Sha256_code", "Sncryptionmethod"} {
 		_, isok := r.Header[key]
@@ -73,7 +70,7 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 	//	3、计算其sha256_code值，并与head.Sha256_code进行对比，如果相同则将该object转存到kvserver中，否则返回报错
 
 	// 将输入存入tmp目录下：
-	sha256 :=  r.Header["Sha256_code"][0]
+	sha256 := r.Header["Sha256_code"][0]
 	tmpFile := fmt.Sprintf("%s/%s", TmpDir, sha256)
 	num, isok := writeToTmpFile(tmpFile, r)
 	if isok {
@@ -106,7 +103,7 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 	// 说明该object可能不存在，此时需要判断sha256_code的值，如果sha256_code的值为空，则表示该object真的不存在，如果不为空则只需要在nos_metadta表中添加一行记录即可
 	if metadata.Sha256CodeISOK(sha256) {
 		// 说明sha256_code存在，在nos_metadta表中添加一行记录即可,此时还要删除tmp文件
-		deleteFile(tmpFile)	// 删除成功与否无所谓，因为每个write都是truncate
+		deleteFile(tmpFile) // 删除成功与否无所谓，因为每个write都是truncate
 		if metadata.InsertObject(objectName, sha256) {
 			// 说明在nos_metadta表中添加一行记录成功
 			WriteLog.Println("put object", objectName, "is ok")
@@ -124,37 +121,50 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 	//	3、写入metadata信息
 	// 注意这个地方我们先转存object，然后在记录metadata，在最坏的情况下我们宁可metadata没有记录也要把object存入kvserver，
 
-	// 1、从etcd中获取kvserver信息
-	kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
-	if len(kvservers) == 0{
+	// 1、根据所设置的副本集的数量（max_replicas）从etcd中获取kvserver信息
+	//kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
+	kvservers := []string{"10.10.30.202:9100", "10.10.10.69:9100", "10.10.30.202:9100"}
+	if len(kvservers) == 0 {
 		// 说明没有从etcd中取到kvserver，此时直接报错
 		WriteLog.Println("get kvserver is bad")
 		w.WriteHeader(400)
 		return
 	}
-	// 说明从etcd中获取kvserver成功，随机抽取一台kvserver执行put操作即可
-	kvserver := kvservers[rand.Intn(len(kvservers))]
-	// 封装put操作,这个地方put操作应该有个返回值，
-	if encapsulation.SecondOperationPut(sha256, kvserver, tmpFile) {
-		// 说明数据层存储object成功，此时需要将objectName、sha256Code记录到元数据里
-		deleteFile(tmpFile)
-		if metadata.InsertObject(objectName, sha256) {
-			// 记录元数据成功，则返回200，同时删除tmpFile
-			WriteLog.Println("put object", objectName, "is ok")
-			w.WriteHeader(200)
+	kvServerSlice := []string{}
+	for len(kvServerSlice) < MaxReplicas {
+		index := rand.Intn(len(kvservers))
+		num := kvservers[index]
+		if isExsit(num, kvServerSlice) {
+			// 说明该kvserver已经存在与切片中
+			fmt.Println("kvServerSlice is", kvServerSlice, "num is", num)
+			continue
+		}
+		kvServerSlice = append(kvServerSlice, num)
+	}
+
+	// 遍历kvServerSlice，执行put操作即可
+	for _, kvserver := range kvServerSlice {
+		if !encapsulation.SecondOperationPut(sha256, kvserver, tmpFile) {
+			// 说明某一台kvserver执行失败，返回报错，已存储的数据暂时不删除
+			deleteFile(tmpFile)
+			WriteLog.Println("put object", objectName, "is bad")
+			w.WriteHeader(400)
 			return
 		}
-		// 记录元数据失败，失败返回417
-		WriteLog.Println("put object", objectName, "is bad")
-		w.WriteHeader(417)
+	}
+	// 说明数据层存储object成功，此时需要将objectName、sha256Code记录到元数据里
+	deleteFile(tmpFile)
+	if metadata.InsertObject(objectName, sha256) {
+		// 记录元数据成功，则返回200，同时删除tmpFile
+		WriteLog.Println("put object", objectName, "is ok")
+		w.WriteHeader(200)
 		return
 	}
-	// 说明数据层存储object失败,也不用写元数据了，直接返回报错
-	deleteFile(tmpFile)
+	// 记录元数据失败，失败返回417
 	WriteLog.Println("put object", objectName, "is bad")
-	w.WriteHeader(400)
+	w.WriteHeader(417)
 	return
-}
+	}
 
 func judgeSha256(sha256Code string) bool {
 	filePath := fmt.Sprintf("%s/%s", TmpDir, sha256Code)
@@ -193,4 +203,13 @@ func writeToTmpFile(fileName string, r *http.Request) (writeBytes string, isok b
 	WriteLog.Println("write file", fileName, "is ok")
 	return strconv.FormatInt(n, 10), true
 
+}
+
+func isExsit(iterm string, kvSlice []string) bool {
+	for _, value := range kvSlice {
+		if value == iterm {
+			return true
+		}
+	}
+	return false
 }

@@ -18,6 +18,7 @@ type system struct {
 	Port int	`toml:"port"`
 	TmpDir string	`toml:"tmpDir"`
 	LogFile string	`toml:"logFile"`
+	Max_replicas int
 }
 
 type ETCD struct {

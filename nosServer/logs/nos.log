@@ -9048,3 +9048,24 @@
 [nos ]2019/11/22 16:43:36 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
 [nos ]2019/11/22 16:43:52 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
 [nos ]2019/11/22 16:43:52 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/25 17:16:12 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:214: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/25 17:16:14 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:17:48 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:216: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/25 17:17:51 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:19:06 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:217: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/25 17:19:09 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:19:55 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:217: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/25 17:19:58 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:20:27 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:214: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/25 17:20:32 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:31:00 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:203: write file /Users/nice/go/default/src/NOS/nosServer/tmp/e833e1ae56a0910033a58351f14f3d47a899fde273c619fd89b097f5337e4400 is ok
+[nos ]2019/11/25 17:31:03 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:31:03 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/25 17:31:03 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/25 17:31:04 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/25 17:31:05 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:159: put object liyuntang.file is ok
+[nos ]2019/11/25 17:31:56 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:49: object  is not exist
+[nos ]2019/11/25 17:31:56 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:49: object favicon.ico is not exist
+[nos ]2019/11/25 17:32:05 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
+[nos ]2019/11/25 17:32:05 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/25 17:32:06 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:49: object favicon.ico is not exist

@@ -3,6 +3,7 @@ address = "127.0.0.1"
 port = 9000
 tmpDir = "/Users/nice/go/default/src/NOS/nosServer/tmp"
 logFile = "/Users/nice/go/default/src/NOS/nosServer/logs/nos.log"
+max_replicas = 3
 
 
 [etcd]
@@ -11,8 +12,8 @@ etcdDir = "/nos/kvservers"
 etcdServers = ["10.10.10.56:2379"]
 
 [metadata]
-user = "admin_m"
-passwd = "XphoeGz6NED4yQMQ0yJc"
+user = "nos_w"
+passwd = "123456"
 address = "10.10.30.41"
 port = 4000
 charset = "utf8mb4"
