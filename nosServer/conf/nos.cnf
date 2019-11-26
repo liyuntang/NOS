@@ -14,8 +14,8 @@ etcdServers = ["10.10.10.199:2379"]
 [metadata]
 user = "nos_w"
 passwd = "123456"
-address = "10.10.30.41"
-port = 4000
+address = "10.10.10.69"
+port = 10000
 charset = "utf8mb4"
-database = "db_platform"
+database = "aaa"
 table = "nos_metadata"

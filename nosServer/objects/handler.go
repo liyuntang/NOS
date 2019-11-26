@@ -68,7 +68,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			get(objectName, isok, objectInfoMap, w, r)
 		} else if strings.ToLower(method) == "put" {
 			// 说明文件不存在，进行put操作
-			put(objectName, objectInfoMap, w, r)
+			put(objectName, isok, objectInfoMap, w, r)
 		} else {
 			// delete
 			delete(objectName, isok, objectInfoMap, w)

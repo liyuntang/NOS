@@ -45,7 +45,7 @@ import (
 // 只有这两个操作同时成功才表示该object的put成功
 
 //func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, data []byte)  {
-func put(objectName string, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
+func put(objectName string, isok bool, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
 	// 判断用户的head设置是否符合要求
 	for _, key := range []string{"Filesize", "Sha256_code", "Sncryptionmethod"} {
 		_, isok := r.Header[key]
@@ -58,7 +58,6 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 	// 不管是get、put还是delete都需要确认object是否存在
 	// 如果存在则返回true以及一个存放了object信息的map
 	// 如果不存在则返回false以及一个空map
-	isok, objectInfoMap := metadata.ObjectISOK(objectName)
 	if isok {
 		// 说明该object存在，此时返回400
 		WriteLog.Println("sorry, object", objectName, "is exist")
@@ -142,7 +141,6 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 		}
 		kvServerSlice = append(kvServerSlice, num)
 	}
-
 	// 遍历kvServerSlice，执行put操作即可
 	for _, kvserver := range kvServerSlice {
 		if !encapsulation.SecondOperationPut(sha256, kvserver, tmpFile) {
@@ -152,6 +150,7 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 			w.WriteHeader(400)
 			return
 		}
+		WriteLog.Println("将数据存入", kvserver, "成功")
 	}
 	// 说明数据层存储object成功，此时需要将objectName、sha256Code记录到元数据里
 	deleteFile(tmpFile)

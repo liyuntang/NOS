@@ -9069,3 +9069,51 @@
 [nos ]2019/11/25 17:32:05 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:25: connect to etcd [10.10.10.56:2379] is ok
 [nos ]2019/11/25 17:32:05 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
 [nos ]2019/11/25 17:32:06 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:49: object favicon.ico is not exist
+[nos ]2019/11/26 14:16:49 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:204: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/26 14:16:49 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:16:49 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/26 14:16:51 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:160: put object data.file is ok
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 30.072632ms
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:208: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:78: 将数据写入临时文件耗时 5.193873ms
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:122: 从数据库中确认sha256耗时 57.276894ms
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:25:10 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/26 14:25:11 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:164: put object data.file is ok
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 29.372118ms
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:214: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:78: 将数据写入临时文件耗时 9.552905ms
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:122: 从数据库中确认sha256耗时 28.896244ms
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:150: 获取kvserver耗时 26.392605ms
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/26 14:28:46 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:162: 二次put耗时 28.550287ms
+[nos ]2019/11/26 14:28:47 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:168: 纪录metadata耗时 1.15760322s
+[nos ]2019/11/26 14:28:47 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:170: put object data.file is ok
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 34.852556ms
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:214: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:78: 将数据写入临时文件耗时 6.820218ms
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:122: 从数据库中确认sha256耗时 48.125258ms
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:150: 获取kvserver耗时 17.549018ms
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:162: 二次put耗时 28.201487ms
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/metadata/insertObject.go:13: run sql insert into aaa.nos_metadata(object_name, sha256_code) values ('data.file', '4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25'); is bad, err is Error 1290: The MySQL server is running with the --read-only option so it cannot execute this statement
+[nos ]2019/11/26 14:33:58 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:175: put object data.file is bad
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 29.042257ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:214: write file /Users/nice/go/default/src/NOS/nosServer/tmp/4c2fadbff6743250bfc66a215abb313e5124bc2a001d2bec4a60bc3ad3af6f25 is ok
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:78: 将数据写入临时文件耗时 4.484145ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:122: 从数据库中确认sha256耗时 25.907124ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:150: 获取kvserver耗时 16.902517ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:162: 二次put耗时 23.944519ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:168: 纪录metadata耗时 34.923357ms
+[nos ]2019/11/26 14:34:54 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:170: put object data.file is ok
+[nos ]2019/11/26 14:35:10 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 29.06302ms
+[nos ]2019/11/26 14:35:10 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:64: sorry, object data.file is exist
+[nos ]2019/11/26 14:35:23 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 25.211598ms
+[nos ]2019/11/26 14:35:23 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:49: object  is not exist
+[nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 29.556528ms
+[nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
