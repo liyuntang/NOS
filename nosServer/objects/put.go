@@ -2,6 +2,7 @@ package objects
 
 import (
 	"NOS/nosServer/encapsulation"
+	"NOS/nosServer/etcd"
 	"NOS/nosServer/metadata"
 	"fmt"
 	"io"
@@ -122,8 +123,8 @@ func put(objectName string, objectInfoMap map[string]string, w http.ResponseWrit
 	// 注意这个地方我们先转存object，然后在记录metadata，在最坏的情况下我们宁可metadata没有记录也要把object存入kvserver，
 
 	// 1、根据所设置的副本集的数量（max_replicas）从etcd中获取kvserver信息
-	//kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
-	kvservers := []string{"10.10.30.202:9100", "10.10.10.69:9100", "10.10.30.202:9100"}
+	kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
+	//kvservers := []string{"10.10.30.202:9100", "10.10.10.69:9100", "10.10.30.202:9100"}
 	if len(kvservers) == 0 {
 		// 说明没有从etcd中取到kvserver，此时直接报错
 		WriteLog.Println("get kvserver is bad")

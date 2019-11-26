@@ -7,9 +7,9 @@ logFile = "/Users/nice/go/default/src/NOS/kvServer/logs/kv.log"
 
 [etcd]
 # 租约时间，单位s
-lease = 3600
+lease = 2
 # 连接etcd的超时时间，单位s
 etcdTimeOut = 1
 etcdDir = "/nos/kvservers/kv01"
-etcdServers = ["10.10.10.56:2379"]
+etcdServers = ["10.10.10.199:2379"]
 

@@ -9,7 +9,7 @@ max_replicas = 3
 [etcd]
 etcdTimeOut = 1
 etcdDir = "/nos/kvservers"
-etcdServers = ["10.10.10.56:2379"]
+etcdServers = ["10.10.10.199:2379"]
 
 [metadata]
 user = "nos_w"

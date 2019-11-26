@@ -50,12 +50,9 @@ func main()  {
 		for {
 			// 这个地方要注意注册的频率，一定要小于lease
 			etcd.Put(configration.Etcd, endPoint, kvlog)
-			time.Sleep(3599*time.Second)
+			time.Sleep(1*time.Second)
 		}
 	}()
-
-
-	etcd.Put(configration.Etcd, endPoint, kvlog)
 
 	// 启动一个http作为数据服务层，该数据服务层监听两个路径"/search/"、"/"
 	// "/search/"表示发起的是广播请求
