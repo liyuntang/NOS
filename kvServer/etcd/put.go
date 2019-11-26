@@ -14,6 +14,7 @@ func Put(config tomlConfig.ETCD, endPoint string, logger *log.Logger)  {
 		Endpoints:config.EtcdServers,
 		DialTimeout:time.Duration(config.EtcdTimeOut)*time.Second,
 	})
+	defer cli.Close()
 	if err != nil{
 		// 说明连接etcd报错
 		logger.Println("connect to etcd", config.EtcdServers, "is bad")
