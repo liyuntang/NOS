@@ -1,9 +1,7 @@
 package objects
 
 import (
-	"NOS/nosServer/metadata"
 	"NOS/nosServer/tomlConfig"
-	"fmt"
 	"log"
 	"net/http"
 	"strings"
@@ -51,31 +49,17 @@ var (
 //		3）对象名称与对象数据存储的文件名称解耦，数据存储的文件名称是对象数据的sha256加密后的字符串
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	// 判断请求方法
-	method := r.Method
-	// 根据系统设定我们只支持get、put、delete都是可允许的正常需求
-	if strings.ToLower(method) == "get" || strings.ToLower(method) == "put" || strings.ToLower(method) == "delete" {
-		// 获取objectName
-		objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(), "/")[1])
-		// 说明客户端发起的请求是我们可允许的，下面对object进行判断
-		// 不管是get、put还是delete都需要确认object是否存在
-		// 如果存在则返回true以及一个存放了object信息的map
-		// 如果不存在则返回false以及一个空map
-		isok, objectInfoMap := metadata.ObjectISOK(objectName)
-		// 下面针对object在不同method情况下进行处理
-		if strings.ToLower(method) == "get" {
-			// get
-			get(objectName, isok, objectInfoMap, w, r)
-		} else if strings.ToLower(method) == "put" {
-			// 说明文件不存在，进行put操作
-			put(objectName, isok, objectInfoMap, w, r)
-		} else {
-			// delete
-			delete(objectName, isok, objectInfoMap, w)
-		}
-	} else {
+	switch strings.ToLower(r.Method) {
+	case "get":
+		get(w, r)
+	case "put":
+		put(w, r)
+	case "delete":
+		// delete
+		delete(w, r)
+	default:
 		// 该系统只支持get、put、delete三个操作，其他的全部报错
-		WriteLog.Println("sorry, method", method, "is not allow, we only suport get/put/delete")
+		WriteLog.Println("sorry, method is not allow, we only suport get/put/delete")
 		w.WriteHeader(405)
 		return
 	}

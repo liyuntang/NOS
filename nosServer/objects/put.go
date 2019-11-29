@@ -11,6 +11,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 )
 
 // put操作检查流程如下：
@@ -45,29 +46,32 @@ import (
 // 只有这两个操作同时成功才表示该object的put成功
 
 //func put(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, data []byte)  {
-func put(objectName string, isok bool, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
+func put(w http.ResponseWriter, r *http.Request) {
 	// 判断用户的head设置是否符合要求
 	for _, key := range []string{"Filesize", "Sha256_code", "Sncryptionmethod"} {
 		_, isok := r.Header[key]
 		if !isok {
 			WriteLog.Println("sorry, head is bad")
 			w.WriteHeader(400)
+			return
 		}
 	}
 	// 至此，说明request发送的head完全符合我们的要求，下面判读object是否已经存在
-	// 不管是get、put还是delete都需要确认object是否存在
-	// 如果存在则返回true以及一个存放了object信息的map
-	// 如果不存在则返回false以及一个空map
-	if isok {
+	// 获取对象名称
+	objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(), "/")[1])
+	// 确认object是否存在如果存在则返回true以及一个存放了object信息的map,如果不存在则返回false以及一个空map
+	ok, objectInfoMap := metadata.ObjectISOK(objectName)
+	if ok {
 		// 说明该object存在，此时返回400
 		WriteLog.Println("sorry, object", objectName, "is exist")
 		w.WriteHeader(400)
 		return
 	}
-	// 至此，说明用户上传的object不存在，进入真正的put流程，流程如下：
+	// 至此，说明用户上传的object不存在，(但不能确定sha256_code是否存在)进入真正的put流程，流程如下：
 	//	1、将用户上传的object存放到tmp目录下
 	//	2、计算其size，并与head.Filesize进行对比，如果相同则进行第3步，如果不同则报错
-	//	3、计算其sha256_code值，并与head.Sha256_code进行对比，如果相同则将该object转存到kvserver中，否则返回报错
+	//	3、计算其sha256_code值，并与head.Sha256_code进行对比，如果相同则判断sha256_code在元数据表中是否存在
+	//	如果不存在将该object转存到kvserver中，如果存在则在元数据中添加一条纪录即可
 
 	// 将输入存入tmp目录下：
 	sha256 := r.Header["Sha256_code"][0]
@@ -101,7 +105,8 @@ func put(objectName string, isok bool, objectInfoMap map[string]string, w http.R
 	//	2、将object数据存入kvserver
 	// 此时需要根据data计算sha256_code值，并以此为objectName进行存储
 	// 说明该object可能不存在，此时需要判断sha256_code的值，如果sha256_code的值为空，则表示该object真的不存在，如果不为空则只需要在nos_metadta表中添加一行记录即可
-	if metadata.Sha256CodeISOK(sha256) {
+	// if metadata.Sha256CodeISOK(sha256)
+	if objectInfoMap["sha256_code"] == sha256 {
 		// 说明sha256_code存在，在nos_metadta表中添加一行记录即可,此时还要删除tmp文件
 		deleteFile(tmpFile) // 删除成功与否无所谓，因为每个write都是truncate
 		if metadata.InsertObject(objectName, sha256) {
@@ -123,7 +128,6 @@ func put(objectName string, isok bool, objectInfoMap map[string]string, w http.R
 
 	// 1、根据所设置的副本集的数量（max_replicas）从etcd中获取kvserver信息
 	kvservers := etcd.EtcdGet(EtcdServer, WriteLog)
-	//kvservers := []string{"10.10.30.202:9100", "10.10.10.69:9100", "10.10.30.202:9100"}
 	if len(kvservers) == 0 {
 		// 说明没有从etcd中取到kvserver，此时直接报错
 		WriteLog.Println("get kvserver is bad")

@@ -3,12 +3,19 @@ package objects
 import (
 	"NOS/nosServer/encapsulation"
 	"NOS/nosServer/etcd"
+	"NOS/nosServer/metadata"
+	"fmt"
 	"net/http"
+	"strings"
 	"time"
 )
 // 6228 4118 2302 8739 463
-func get(objectName string, isExist bool, objectInfoMap map[string]string, w http.ResponseWriter, r *http.Request) {
-	if isExist {
+func get(w http.ResponseWriter, r *http.Request) {
+	// 获取对象名称
+	objectName := fmt.Sprintf(strings.Split(r.URL.EscapedPath(), "/")[1])
+	// 确认object是否存在如果存在则返回true以及一个存放了object信息的map,如果不存在则返回false以及一个空map
+	isok, objectInfoMap := metadata.ObjectISOK(objectName)
+	if isok {
 		// 说明object存在,此时需要做两个操作：
 		// 1、从objectInfoMap中获取sha256_code值，并以此为objectName到kvserver中广播
 		// 2、从etcd中获取kvserver信息，然后对所有kvserver进行广播

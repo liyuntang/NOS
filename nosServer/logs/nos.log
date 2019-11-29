@@ -9117,3 +9117,27 @@
 [nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/objects/handler.go:67: 从tidb中获取object信息耗时 29.556528ms
 [nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
 [nos ]2019/11/26 14:35:29 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/29 16:48:20 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:56: object  is not exist
+[nos ]2019/11/29 16:48:26 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:48:26 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/29 16:48:36 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:48:36 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/29 16:49:20 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:56: object  is not exist
+[nos ]2019/11/29 16:49:27 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:49:27 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/29 16:49:27 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:56: object favicon.ico is not exist
+[nos ]2019/11/29 16:49:30 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:49:30 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
+[nos ]2019/11/29 16:49:34 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:56: object eee.jpg is not exist
+[nos ]2019/11/29 16:49:34 /Users/nice/go/default/src/NOS/nosServer/objects/get.go:56: object favicon.ico is not exist
+[nos ]2019/11/29 16:51:32 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:207: write file /Users/nice/go/default/src/NOS/nosServer/tmp/c4b094fa585f9a9c5d21aabcaa78504daa1523b127ac18ae1f2265301e554436 is ok
+[nos ]2019/11/29 16:51:32 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:51:34 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/29 16:51:34 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:157: 将数据存入 10.10.10.56:9100 成功
+[nos ]2019/11/29 16:51:34 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/29 16:51:34 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:157: 将数据存入 10.8.10.16:9100 成功
+[nos ]2019/11/29 16:51:39 /Users/nice/go/default/src/NOS/nosServer/encapsulation/put.go:32: second operation of put is ok
+[nos ]2019/11/29 16:51:39 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:157: 将数据存入 10.10.30.202:9100 成功
+[nos ]2019/11/29 16:51:39 /Users/nice/go/default/src/NOS/nosServer/objects/put.go:163: put object eee.jpg is ok
+[nos ]2019/11/29 16:51:52 /Users/nice/go/default/src/NOS/nosServer/etcd/get.go:26: connect to etcd [10.10.10.199:2379] is ok
+[nos ]2019/11/29 16:51:54 /Users/nice/go/default/src/NOS/nosServer/encapsulation/get.go:36: second operation of get is ok
